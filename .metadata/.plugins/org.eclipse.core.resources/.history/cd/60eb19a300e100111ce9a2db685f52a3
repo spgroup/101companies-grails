@@ -1,0 +1,9 @@
+package org.softlang.company
+
+class Address {
+
+	String street
+	
+    static constraints = {
+    }
+}

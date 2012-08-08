@@ -1,0 +1,6 @@
+package org.softlang.company
+
+class AddressController {
+
+    def index() { }
+}

@@ -1,0 +1,11 @@
+package org.softlang.company
+
+class Company {
+
+	String name
+	
+	
+	
+    static constraints = {
+    }
+}

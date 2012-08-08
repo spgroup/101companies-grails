@@ -1,0 +1,126 @@
+!SESSION 2012-08-07 13:44:04.920 -----------------------------------------------
+eclipse.buildId=2.9.2.201205071000-RELEASE
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-07 13:44:54.398
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2012-08-07 22:28:48.391 -----------------------------------------------
+eclipse.buildId=2.9.2.201205071000-RELEASE
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-07 22:29:39.088
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.springsource.sts.grails.core 4 4 2012-08-07 22:45:01.642
+!MESSAGE Command terminated with an error code (see details for output)
+!SUBENTRY 1 com.springsource.sts.grails.core 4 0 2012-08-07 22:45:01.642
+!MESSAGE ------System.out:-----------
+ | Loading Grails 2.1.0
+| Configuring classpath.
+| Environment set to development.....
+| Created file grails-app/domain/101companies/Company.groovy
+| Compiling 1 source files.
+| Error Compilation error: startup failed:
+/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies/grails-app/domain/101companies/Company.groovy: 1: unexpected token: package @ line 1, column 1.
+   package 101companies
+   ^
+1 error
+!SUBENTRY 1 com.springsource.sts.grails.core 4 0 2012-08-07 22:45:01.642
+!MESSAGE ------System.err:-----------
+
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-08-07 22:45:26.747
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-08-07 22:45:26.748
+!MESSAGE Conflict for 'org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu,
+	handler=org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@636a969b,
+	expression=AndExpression(ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1dbcf620),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@69c67db)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu,
+	handler=org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@6ac5cd1a,
+	expression=AndExpression(ActivePartExpression(org.eclipse.ui.navigator.resources.ProjectExplorer@1dbcf620),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@69c67db)),sourcePriority=1064960)
+
+!ENTRY com.springsource.sts.ide.ui 1 0 2012-08-07 22:48:40.959
+!MESSAGE About to uninstall: [] to make way for new version of m2eclipse
+
+!ENTRY org.eclipse.mylyn.discovery.ui 4 0 2012-08-07 22:49:26.348
+!MESSAGE Problems occurred while performing installation: Operation details
+!STACK 1
+org.eclipse.core.runtime.CoreException: Operation details
+	at org.eclipse.mylyn.internal.discovery.ui.PrepareInstallProfileJob_e_3_6.resolveInstall(PrepareInstallProfileJob_e_3_6.java:198)
+	at org.eclipse.mylyn.internal.discovery.ui.PrepareInstallProfileJob_e_3_6.run(PrepareInstallProfileJob_e_3_6.java:99)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Cannot complete the install because of a conflicting dependency.
+Contains: Software being installed: Groovy Compiler 2.0 Feature 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy20.feature.feature.group 2.7.0.xx-20120703-1400-e37-RELEASE)
+Contains: Software currently installed: Groovy-Eclipse Feature 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse.feature.feature.group 2.7.1.xx-20120803-1100-e37)
+Contains: Only one of the following can be installed at once: 
+Contains: Groovy-Eclipse plugin 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy.eclipse 2.7.0.xx-20120703-1400-e37-RELEASE)
+Contains: Groovy-Eclipse plugin 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse 2.7.1.xx-20120803-1100-e37)
+Contains: Cannot satisfy dependency:
+Contains: From: Groovy-Eclipse Feature 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse.feature.feature.group 2.7.1.xx-20120803-1100-e37)
+Contains: To: org.codehaus.groovy.eclipse [2.7.1.xx-20120803-1100-e37]
+Contains: Cannot satisfy dependency:
+Contains: From: Groovy Compiler 2.0 Feature 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy20.feature.feature.group 2.7.0.xx-20120703-1400-e37-RELEASE)
+Contains: To: org.codehaus.groovy.eclipse [2.7.0.xx-20120703-1400-e37-RELEASE]
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 0 2012-08-07 22:49:26.349
+!MESSAGE Operation details
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-08-07 22:49:26.349
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE Software being installed: Groovy Compiler 2.0 Feature 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy20.feature.feature.group 2.7.0.xx-20120703-1400-e37-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE Software currently installed: Groovy-Eclipse Feature 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse.feature.feature.group 2.7.1.xx-20120803-1100-e37)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 1 2012-08-07 22:49:26.349
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE Groovy-Eclipse plugin 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy.eclipse 2.7.0.xx-20120703-1400-e37-RELEASE)
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE Groovy-Eclipse plugin 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse 2.7.1.xx-20120803-1100-e37)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 1 2012-08-07 22:49:26.349
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE From: Groovy-Eclipse Feature 2.7.1.xx-20120803-1100-e37 (org.codehaus.groovy.eclipse.feature.feature.group 2.7.1.xx-20120803-1100-e37)
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE To: org.codehaus.groovy.eclipse [2.7.1.xx-20120803-1100-e37]
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 1 2012-08-07 22:49:26.349
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE From: Groovy Compiler 2.0 Feature 2.7.0.xx-20120703-1400-e37-RELEASE (org.codehaus.groovy20.feature.feature.group 2.7.0.xx-20120703-1400-e37-RELEASE)
+!SUBENTRY 4 org.eclipse.equinox.p2.director 4 0 2012-08-07 22:49:26.349
+!MESSAGE To: org.codehaus.groovy.eclipse [2.7.0.xx-20120703-1400-e37-RELEASE]
+
+!ENTRY com.springsource.sts.grails.core 4 4 2012-08-07 22:51:24.760
+!MESSAGE Command terminated with an error code (see details for output)
+!SUBENTRY 1 com.springsource.sts.grails.core 4 0 2012-08-07 22:51:24.760
+!MESSAGE ------System.out:-----------
+ | Loading Grails 2.1.0
+| Configuring classpath.
+| Environment set to development.....
+| Created file grails-app/domain/101companies/grails/Company.groovy
+| Compiling 1 source files.
+| Error Compilation error: startup failed:
+/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies-grails/grails-app/domain/101companies/grails/Company.groovy: 1: unexpected token: package @ line 1, column 1.
+   package 101companies.grails
+   ^
+1 error
+!SUBENTRY 1 com.springsource.sts.grails.core 4 0 2012-08-07 22:51:24.760
+!MESSAGE ------System.err:-----------
+
+!SESSION 2012-08-08 15:30:31.502 -----------------------------------------------
+eclipse.buildId=2.9.2.201205071000-RELEASE
+java.version=1.6.0_33
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.springsource.sts.ide -keyring /Users/Rodrigo/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-08-08 15:33:27.498
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

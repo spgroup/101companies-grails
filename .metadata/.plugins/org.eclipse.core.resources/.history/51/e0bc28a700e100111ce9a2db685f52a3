@@ -1,0 +1,10 @@
+package org.softlang.company
+
+class Address {
+
+	String street
+	String zipcode
+	
+    static constraints = {
+    }
+}

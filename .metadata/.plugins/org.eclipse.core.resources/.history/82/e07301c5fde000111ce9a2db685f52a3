@@ -1,0 +1,12 @@
+package org.softlang.company
+
+class Company {
+
+	String name
+	static hasMany = [departments: Department]
+	
+	
+    static constraints = {
+		name unique = true
+    }
+}

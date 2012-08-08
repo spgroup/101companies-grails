@@ -1,0 +1,11 @@
+package org.softlang.company
+
+class Employee {
+
+	String name
+	Double salary
+	String address
+	
+    static constraints = {
+    }
+}

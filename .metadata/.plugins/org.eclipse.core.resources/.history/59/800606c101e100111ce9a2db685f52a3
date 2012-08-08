@@ -1,0 +1,19 @@
+package org.softlang.company
+
+class Address {
+
+	String street
+	Long number
+	String zipcode
+	String city
+	String country
+	static belongsTo = Employee
+	
+    static constraints = {
+		street blank: false, nullable: false
+		zipcode blank: false, nullable: false
+		city blank: false, nullable: false
+		country blank: false, nullable: false
+		number min: 1
+    }
+}

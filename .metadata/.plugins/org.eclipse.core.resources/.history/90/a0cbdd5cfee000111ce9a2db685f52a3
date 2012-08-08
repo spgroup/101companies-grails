@@ -1,0 +1,13 @@
+package org.softlang.company
+
+class Department {
+
+	String name
+	Employee manager
+	
+	
+    static constraints = {
+		manager nullable: false
+		name unique: true
+    }
+}
