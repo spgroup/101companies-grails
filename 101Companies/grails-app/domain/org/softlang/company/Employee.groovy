@@ -1,3 +1,4 @@
+// #if treeStructure
 package org.softlang.company
 
 class Employee {
@@ -16,3 +17,4 @@ class Employee {
 		return name
 	}
 }
+// #endif

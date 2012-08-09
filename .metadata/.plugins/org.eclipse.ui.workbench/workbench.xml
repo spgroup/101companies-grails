@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="93" version="2.0">
+<workbench progressCount="74" version="2.0">
 <workbenchAdvisor/>
-<window height="711" width="1440" x="0" y="22">
+<window height="711" maximized="true" width="1440" x="0" y="22">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.junit.ResultView"/>
 <orientation position="512" view="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator"/>
@@ -25,6 +25,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.codehaus.groovy.eclipse.editor.GroovyEditor" itemType="typePlaceholder" x="120" y="22"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -43,20 +44,26 @@
 </editorArea>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress"/>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
 </view>
 <view id="org.springframework.ide.eclipse.ui.navigator.springExplorer" partName="Spring Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.springframework.ide.eclipse.ui.navigator.workingsets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers"/>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress"/>
 <view id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" partName="Beans Cross References"/>
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" partName="Cross References"/>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
@@ -96,6 +103,9 @@
 </customFilters>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
 <sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
@@ -111,14 +121,11 @@
 <filteredTreeFindHistory/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.springsource.sts.grails.perspective">
+<perspectives activePart="org.eclipse.search.ui.views.SearchView" activePerspective="com.springsource.sts.grails.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.springsource.sts.internal.ide.ui.perspective.StsPerspective" id="com.springsource.sts.ide.perspective" label="Spring"/>
 <alwaysOnActionSet id="com.springsource.sts.ide.help.actionSet"/>
@@ -344,6 +351,7 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.AllMarkersView"/>
 <view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
 <fastViews>
 <view id="org.eclipse.jdt.junit.ResultView" ratio="0.25"/>
 </fastViews>
@@ -383,21 +391,22 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.66502464" ratioLeft="540" ratioRight="272" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
-<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="*" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -432,41 +441,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_pt_BR.properties" tooltip="101Companies/grails-app/i18n/messages_pt_BR.properties">
-<persistable path="/101Companies/grails-app/i18n/messages_pt_BR.properties"/>
+<file factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
+<persistable openDashboard="true"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages.properties" tooltip="101Companies/.link_to_grails_plugins/resources-1.1.6/grails-app/i18n/messages.properties">
+<persistable path="/101Companies/.link_to_grails_plugins/resources-1.1.6/grails-app/i18n/messages.properties"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages.properties" tooltip="101Companies/grails-app/i18n/messages.properties">
 <persistable path="/101Companies/grails-app/i18n/messages.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Department.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Department.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Department.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages.properties" tooltip="101Companies/.link_to_grails_plugins/jquery-1.7.2/grails-app/i18n/messages.properties">
+<persistable path="/101Companies/.link_to_grails_plugins/jquery-1.7.2/grails-app/i18n/messages.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Employee.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Employee.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Employee.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="EmployeeTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/EmployeeTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/EmployeeTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Company.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Company.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Company.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="EmployeeControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/EmployeeControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/EmployeeControllerTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Address.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Address.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Address.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/DepartmentTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/DepartmentTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="AddressController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy">
-<persistable path="/101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/DepartmentControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/DepartmentControllerTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="EmployeeController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/EmployeeController.groovy">
-<persistable path="/101Companies/grails-app/controllers/org/softlang/company/EmployeeController.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="CompanyTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/CompanyTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/CompanyTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/DepartmentController.groovy">
-<persistable path="/101Companies/grails-app/controllers/org/softlang/company/DepartmentController.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="CompanyControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/CompanyControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/CompanyControllerTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="CompanyController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/CompanyController.groovy">
-<persistable path="/101Companies/grails-app/controllers/org/softlang/company/CompanyController.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="AddressTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/AddressTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/AddressTests.groovy"/>
 </file>
-<file factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="AddressControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/AddressControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/AddressControllerTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Company.groovy" tooltip="101Companies-grails/grails-app/domain/101companies/grails/Company.groovy">
-<persistable path="/101Companies-grails/grails-app/domain/101companies/grails/Company.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MemoryPageFragmentCachingFilter.java" tooltip="101Companies/.link_to_grails_plugins/cache-1.0.0/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java">
+<persistable path="/101Companies/.link_to_grails_plugins/cache-1.0.0/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="messages_pt_BR.properties" tooltip="101Companies/grails-app/i18n/messages_pt_BR.properties">
+<persistable path="/101Companies/grails-app/i18n/messages_pt_BR.properties"/>
 </file>
 </mruList>
 </workbench>
