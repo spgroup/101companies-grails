@@ -1,5 +1,5 @@
 #dependencies
-105
+106
 /Users/Rodrigo/.grails/ivy-cache/org.springframework.uaa/org.springframework.uaa.client/bundles/org.springframework.uaa.client-1.0.1.RELEASE.jar
 /Users/Rodrigo/.grails/ivy-cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar
 /Users/Rodrigo/.grails/ivy-cache/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar
@@ -31,6 +31,7 @@
 /Users/Rodrigo/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.27.jar
 /Users/Rodrigo/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.6.2.jar
 /Users/Rodrigo/.grails/ivy-cache/org.grails/grails-plugin-tomcat/jars/grails-plugin-tomcat-2.1.0.jar
+/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies/lib/velocity-1.7.jar
 /Users/Rodrigo/.grails/ivy-cache/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar
 /Users/Rodrigo/.grails/ivy-cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.3.jar
 /Users/Rodrigo/.grails/ivy-cache/commons-el/commons-el/jars/commons-el-1.0.jar
@@ -106,7 +107,12 @@
 /Users/Rodrigo/.grails/ivy-cache/org.grails/grails-plugin-testing/jars/grails-plugin-testing-2.1.0.jar
 /Users/Rodrigo/.grails/ivy-cache/org.grails/grails-test/jars/grails-test-2.1.0.jar
 #sources
-30
+35
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/conf
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/i18n
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/taglib
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/src/groovy
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/src/java
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/cache-1.0.0/grails-app/conf
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/cache-1.0.0/grails-app/services
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/cache-1.0.0/grails-app/taglib
@@ -140,7 +146,7 @@
 #workDir
 /Users/Rodrigo/.grails/2.1.0
 #plugin descriptors
-7
+8
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/webxml-1.4.1/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/tomcat-2.1.0/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/resources-1.1.6/plugin.xml
@@ -148,6 +154,7 @@
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/hibernate-2.1.0/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/database-migration-1.1/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/cache-1.0.0/plugin.xml
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/plugin.xml
 #plugins directory
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins
 #plugin classes dir

@@ -8,7 +8,7 @@ class Address {
 	String zipcode
 	String city
 	String country
-	static belongsTo = Employee
+	//static belongsTo = Employee
 	
     static constraints = {
 		street blank: false, nullable: false
@@ -19,7 +19,7 @@ class Address {
     }
 	
 	String toString() {
-		return street
+		return street + ", " + number + ". " + zipcode + ". " + city + ", " + country 
 	}
 }
 // #endif

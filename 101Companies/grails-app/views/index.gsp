@@ -1,8 +1,9 @@
+<!-- #if webui -->
 <!doctype html>
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
+		<title>101Companies in grails</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -83,40 +84,35 @@
 	<body>
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
-			<h1>Application Status</h1>
+			<h1>Useful information</h1>
 			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${org.codehaus.groovy.runtime.InvokerHelper.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
+				<li>Frequently Asked Questions</li>
+				<li>The features</li>
+				<li>The implementations</li>
+				<li>Contributors</li>
+				<li>The stakeholders</li>
+				<li>Some themes of contributions</li>
+				<li>Some ideas for contributions</li>
+				<li>The data exposed</li>
+				<li>More resources</li>
+				<li>The ontology</li>
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+			<h1>Welcome to 101Companies in grails</h1>
+			<p>101companies is a community project in computer science (or software science) with the objective of developing a free, structured, online knowledge resource including an open-source repository for different stakeholders with interests in software technologies, software languages, and technological spaces; notably: teachers and learners in software engineering or software languages as well as software developers, software technologists, and ontologists.</p>
 
 			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
+				<h2>Application in grails:</h2>
+				<p>We present an implementation of the 101Companies implementation using powerful resources provided by grails.</p>
+				<!-- #if treeStructure -->
+					<g:link controller="company" action="list">Company</g:link> |
+					<g:link controller="department" action="list">Department</g:link> |
+					<g:link controller="employee" action="list">Employee</g:link> |
+					<g:link controller="address" action="list">Address</g:link>
+				<!-- #endif -->
 			</div>
 		</div>
 	</body>
 </html>
+<!-- #endif -->
