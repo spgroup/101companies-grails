@@ -1,3 +1,4 @@
+// #if Company
 package org.softlang.company
 
 /**
@@ -10,3 +11,4 @@ class CompanyTests {
        fail "Implement me"
     }
 }
+// #endif Company

@@ -1,4 +1,4 @@
-<!-- #if webui -->
+<!-- #if Webui -->
 <!doctype html>
 <html>
 	<head>
@@ -105,12 +105,11 @@
 			<div id="controller-list" role="navigation">
 				<h2>Application in grails:</h2>
 				<p>We present an implementation of the 101Companies implementation using powerful resources provided by grails.</p>
-				<!-- #if treeStructure -->
+				<!-- #if Company -->
 					<g:link controller="company" action="list">Company</g:link> |
 					<g:link controller="department" action="list">Department</g:link> |
-					<g:link controller="employee" action="list">Employee</g:link> |
-					<g:link controller="address" action="list">Address</g:link>
-				<!-- #endif -->
+					<g:link controller="employee" action="list">Employee</g:link>
+				<!-- #endif Company -->
 			</div>
 		</div>
 	</body>

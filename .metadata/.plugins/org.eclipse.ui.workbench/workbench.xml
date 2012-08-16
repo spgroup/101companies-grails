@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="74" version="2.0">
+<workbench progressCount="90" version="2.0">
 <workbenchAdvisor/>
-<window height="711" maximized="true" width="1355" x="0" y="22">
+<window height="971" maximized="true" width="1874" x="0" y="22">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.junit.ResultView"/>
 <orientation position="512" view="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator"/>
@@ -21,18 +21,20 @@
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.springsource.sts.grails.editor.gsp.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.springsource.sts.grails.editor.gsp.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.codehaus.groovy.eclipse.editor.GroovyEditor" itemType="typeToolBarContribution" x="120" y="22"/>
-<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.codehaus.groovy.eclipse.editor.GroovyEditor" itemType="typePlaceholder" x="120" y="22"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -41,31 +43,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" partName="Dashboard" title="Dashboard" tooltip="Dashboard" workbook="DefaultEditorWorkbook">
-<input factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" openDashboard="true"/>
-</editor>
-<editor id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="AddressController.groovy" partName="AddressController.groovy" path="/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy" title="AddressController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="187" selectionTopPixel="0"/>
-</editor>
-<editor id="com.springsource.sts.grails.editor.gsp.editor" name="main.gsp" partName="main.gsp" path="/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies/grails-app/views/layouts/main.gsp" title="main.gsp" tooltip="101Companies/grails-app/views/layouts/main.gsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/101Companies/grails-app/views/layouts/main.gsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="33" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Company.groovy" partName="Company.groovy" path="/Users/Rodrigo/Documents/spgroup/101companies-grails/101Companies/grails-app/domain/org/softlang/company/Company.groovy" title="Company.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Company.groovy" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/101Companies/grails-app/domain/org/softlang/company/Company.groovy"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="191" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit"/>
@@ -90,6 +71,9 @@
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" partName="Cross References"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (5 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="711"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -159,7 +143,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.codehaus.groovy.eclipse.editor.GroovyEditor" activePerspective="com.springsource.sts.grails.perspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.springsource.sts.grails.perspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.springsource.sts.internal.ide.ui.perspective.StsPerspective" id="com.springsource.sts.ide.perspective" label="Spring"/>
 <alwaysOnActionSet id="com.springsource.sts.ide.help.actionSet"/>
@@ -410,7 +394,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2427108" ratioLeft="308" ratioRight="961" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.13043478" ratioLeft="249" ratioRight="1660" relationship="2" relative="left"/>
 <info folder="true" part="topright" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
@@ -424,7 +408,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.66502464" ratioLeft="540" ratioRight="272" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.751938" ratioLeft="679" ratioRight="224" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
@@ -456,24 +440,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" path="/101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" path="/101Companies/grails-app/views/layouts/main.gsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" path="/101Companies/grails-app/domain/org/softlang/company/Company.groovy"/>
-</editors>
-<item historyLabel="Dashboard" index="0"/>
-<item historyLabel="AddressController.groovy" index="1">
-<position info="not_deleted" x="187" y="0"/>
-</item>
-<item historyLabel="main.gsp" index="2">
-<position info="not_deleted" x="33" y="0"/>
-</item>
-<item active="true" historyLabel="Company.groovy" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -495,32 +462,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Company.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Company.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Company.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Department.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Department.groovy">
+<persistable path="/101Companies/grails-app/domain/org/softlang/company/Department.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" name="main.gsp" tooltip="101Companies/grails-app/views/layouts/main.gsp">
-<persistable path="/101Companies/grails-app/views/layouts/main.gsp"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Query.class" tooltip="org.grails.datastore.mapping.query.Query">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=101Companies/\/Users\/Rodrigo\/.grails\/ivy-cache\/org.grails\/grails-datastore-core\/jars\/grails-datastore-core-1.0.9.RELEASE.jar&lt;org.grails.datastore.mapping.query(Query.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="AddressController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy">
-<persistable path="/101Companies/grails-app/controllers/org/softlang/company/AddressController.groovy"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="GormStaticApi.class" tooltip="org.grails.datastore.gorm.GormStaticApi">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=101Companies/\/Users\/Rodrigo\/.grails\/ivy-cache\/org.grails\/grails-datastore-gorm\/jars\/grails-datastore-gorm-1.0.9.RELEASE.jar&lt;org.grails.datastore.gorm(GormStaticApi.class"/>
 </file>
-<file factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="EmployeeController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/EmployeeController.groovy">
+<persistable path="/101Companies/grails-app/controllers/org/softlang/company/EmployeeController.groovy"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" name="_form.gsp" tooltip="101Companies/grails-app/views/department/_form.gsp">
+<persistable path="/101Companies/grails-app/views/department/_form.gsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" name="create.gsp" tooltip="101Companies/grails-app/views/department/create.gsp">
+<persistable path="/101Companies/grails-app/views/department/create.gsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" name="list.gsp" tooltip="101Companies/grails-app/views/department/list.gsp">
+<persistable path="/101Companies/grails-app/views/department/list.gsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentController.groovy" tooltip="101Companies/grails-app/controllers/org/softlang/company/DepartmentController.groovy">
+<persistable path="/101Companies/grails-app/controllers/org/softlang/company/DepartmentController.groovy"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Employee.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Employee.groovy">
 <persistable path="/101Companies/grails-app/domain/org/softlang/company/Employee.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Department.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Department.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Department.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="EmployeeTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/EmployeeTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/EmployeeTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="Address.groovy" tooltip="101Companies/grails-app/domain/org/softlang/company/Address.groovy">
-<persistable path="/101Companies/grails-app/domain/org/softlang/company/Address.groovy"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/DepartmentTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/DepartmentTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.springsource.sts.grails.editor.gsp.editor" name="index.gsp" tooltip="101Companies/grails-app/views/index.gsp">
-<persistable path="/101Companies/grails-app/views/index.gsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="DepartmentControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/DepartmentControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/DepartmentControllerTests.groovy"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="main.css" tooltip="101Companies/web-app/css/main.css">
-<persistable path="/101Companies/web-app/css/main.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="CompanyTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/CompanyTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/CompanyTests.groovy"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" name="CompanyControllerTests.groovy" tooltip="101Companies/test/unit/org/softlang/company/CompanyControllerTests.groovy">
+<persistable path="/101Companies/test/unit/org/softlang/company/CompanyControllerTests.groovy"/>
 </file>
 </mruList>
 </workbench>

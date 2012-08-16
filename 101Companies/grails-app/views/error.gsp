@@ -1,3 +1,4 @@
+<!-- #if Webui -->
 <!doctype html>
 <html>
 	<head>
@@ -9,3 +10,4 @@
 		<g:renderException exception="${exception}" />
 	</body>
 </html>
+<!-- #endif Webui -->

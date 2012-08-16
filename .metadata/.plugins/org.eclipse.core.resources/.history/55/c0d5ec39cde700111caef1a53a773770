@@ -1,0 +1,26 @@
+// #if Company
+package org.softlang.company
+
+class Employee {
+
+	String name
+	Double salary
+	
+	// address
+	String street
+	Long number
+	String zipcode
+	String city
+	String country
+	
+    static constraints = {
+		name blank: false, nullable: false
+		address nullable: false
+		salary min: 1.0d, nullable: false
+    }
+	
+	String toString() {
+		return name
+	}
+}
+// #endif

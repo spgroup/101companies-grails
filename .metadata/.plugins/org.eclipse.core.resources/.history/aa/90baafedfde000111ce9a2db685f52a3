@@ -1,9 +1,0 @@
-package org.softlang.company
-
-class Department {
-
-	String name
-	
-    static constraints = {
-    }
-}

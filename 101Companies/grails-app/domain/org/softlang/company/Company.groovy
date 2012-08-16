@@ -1,4 +1,4 @@
-// #if treeStructure
+// #if Company
 package org.softlang.company
 
 class Company {
@@ -6,15 +6,15 @@ class Company {
 	String name
 	static hasMany = [departments: Department]
 	
+	// #if Valitation
     static constraints = {
-		//pode ser uma feature de validacao
-		//sera que a verificacao eh feita na UI e no controlador? verificar isso
-		// seria algo do tipo: // #if treeStructure and validacao
+		// these constraints are verified in the Views and in the Controllers
 		name unique: true, blank: false
     }
-	
+	// # endif Validation
 	String toString() {
 		return name
 	}
+	
 }
-// #endif
+// #endif Company

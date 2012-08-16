@@ -1,0 +1,8 @@
+package org.softlang.company
+
+import org.springframework.dao.DataIntegrityViolationException
+
+class EmployeeController {
+
+	static scaffold Employee
+}

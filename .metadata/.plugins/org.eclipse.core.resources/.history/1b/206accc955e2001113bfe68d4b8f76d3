@@ -1,7 +1,0 @@
-#set( $condition = true)
-
-#if ($condition)
-    The condition is true!
-#else
-    The condition is false!
-#end

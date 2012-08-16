@@ -1,9 +1,0 @@
-package org.softlang.company
-
-class Address {
-
-	
-	
-    static constraints = {
-    }
-}

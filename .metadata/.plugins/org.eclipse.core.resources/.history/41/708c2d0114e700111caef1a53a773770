@@ -1,0 +1,36 @@
+<%@ page import="org.softlang.company.Employee" %>
+
+
+
+<div class="fieldcontain ${hasErrors(bean: employeeInstance, field: 'name', 'error')} required">
+	<label for="name">
+		<g:message code="employee.name.label" default="Name" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="name" required="" value="${employeeInstance?.name}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: employeeInstance, field: 'address', 'error')} required">
+	<label for="address">
+		<g:message code="employee.address.label" default="Address" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="address" name="address.id" from="${org.softlang.company.Address.list()}" optionKey="id" required="" value="${employeeInstance?.address?.id}" class="many-to-one"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: addressInstance, field: 'street', 'error')} required">
+	<label for="street">
+		<g:message code="address.street.label" default="Street" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="street" required="" value="${employeeInstance?.addressInstance?.street}"/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: employeeInstance, field: 'salary', 'error')} required">
+	<label for="salary">
+		<g:message code="employee.salary.label" default="Salary" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:field name="salary" value="${fieldValue(bean: employeeInstance, field: 'salary')}" required=""/>
+</div>
+
