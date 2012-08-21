@@ -1,4 +1,3 @@
-<!-- #if Webui AND Company -->
 <%@ page import="org.softlang.company.Company" %>
 <!doctype html>
 <html>
@@ -38,4 +37,3 @@
 		</div>
 	</body>
 </html>
-<!-- #endif Webui AND Company -->

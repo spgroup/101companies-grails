@@ -38,7 +38,7 @@ class DepartmentController {
             redirect(action: "list")
             return
         }
-
+		
         [departmentInstance: departmentInstance]
     }
 

@@ -1,4 +1,3 @@
-// #if Company
 package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
@@ -13,6 +12,7 @@ class CompanyController {
 
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
+		
         [companyInstanceList: Company.list(params), companyInstanceTotal: Company.count()]
     }
 
@@ -38,7 +38,10 @@ class CompanyController {
             redirect(action: "list")
             return
         }
-
+		
+		//#if Total
+		companyInstance.calculateTotal()
+		//#endif Total
         [companyInstance: companyInstance]
     }
 
@@ -101,4 +104,3 @@ class CompanyController {
         }
     }
 }
-// #endif Company

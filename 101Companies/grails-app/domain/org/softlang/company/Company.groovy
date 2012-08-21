@@ -1,10 +1,22 @@
 // #if Company
 package org.softlang.company
 
+import org.springframework.aop.aspectj.RuntimeTestWalker.ThisInstanceOfResidueTestVisitor;
+
 class Company {
 
 	String name
 	static hasMany = [departments: Department]
+	
+	//#if Total
+	 double total = 0.0
+	 
+	 void calculateTotal(){
+		 this.total = 0.0
+		 for(department in this.departments) this.total += department.calculateTotal()
+		 
+		 }
+	//#endif Total
 	
 	// #if Valitation
     static constraints = {

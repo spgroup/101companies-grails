@@ -27,9 +27,11 @@ class EmployeeController {
             render(view: "create", model: [employeeInstance: employeeInstance])
             return
         }
-
+		
         flash.message = message(code: 'default.created.message', args: [message(code: 'employee.label', default: 'Employee'), employeeInstance.id])
         redirect(action: "show", id: employeeInstance.id)
+
+		
     }
 
     def show(Long id) {

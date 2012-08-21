@@ -1,5 +1,9 @@
-// #if Company
 package org.softlang.company
+
+
+
+import org.junit.*
+import grails.test.mixin.*
 
 @TestFor(CompanyController)
 @Mock(Company)
@@ -149,4 +153,3 @@ class CompanyControllerTests {
         assert response.redirectedUrl == '/company/list'
     }
 }
-// #endif Company

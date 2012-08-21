@@ -1,4 +1,4 @@
-<!-- #if Webui AND Company -->
+
 <%@ page import="org.softlang.company.Company" %>
 <!doctype html>
 <html>
@@ -41,7 +41,20 @@
 						</g:each>
 					
 				</li>
+				
+				
 				</g:if>
+			
+			<!-- //#if Total -->
+				<g:if test="${companyInstance?.total}">
+				<li class="fieldcontain">
+					<span id="total-label" class="property-label"><g:message code="company.total.label" default="Total" /></span>
+					
+						<span class="property-value" aria-labelledby="total-label"><g:fieldValue bean="${companyInstance}" field="total"/></span>
+					
+				</li>
+				</g:if>
+		<!-- //#endif Total -->
 			
 			</ol>
 			<g:form>
@@ -54,4 +67,3 @@
 		</div>
 	</body>
 </html>
-<!-- #endif Webui AND Company -->
