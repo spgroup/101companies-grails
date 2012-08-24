@@ -6,7 +6,6 @@ INDEX VERSION 1.126+/Users/Rodrigo/Documents/spgroup/101companies-grails/.metada
 531844805.index
 3623783346.index
 2190553773.index
-1561410564.index
 2988429618.index
 649586835.index
 1169042934.index
