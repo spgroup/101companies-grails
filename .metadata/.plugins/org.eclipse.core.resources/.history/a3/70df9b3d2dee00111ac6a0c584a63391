@@ -1,0 +1,37 @@
+import org.softlang.company.Company
+import org.softlang.company.Department
+import org.softlang.company.Employee
+
+class BootStrap {
+
+    def init = { servletContext ->
+		def employeeRodrigo = new Employee(name: "Rodrigo Andrade", salary: 1000d, street: "Rua Faustino Porto", number: 289l, zipcode: "51020-270", city: "Recife", country: "Brasil").save(failOnError: true)
+		
+		def departmentCin = new Department(name: "Cin")
+		def departmentArea2 = new Department(name: "Area 2").save(failOnError: true)
+		def departmentCCSA = new Department(name: "CCSA").save(failOnError: true)
+		def departmentCCEN = new Department(name: "CCEN")
+		
+		departmentCin.addToEmployees(employeeRodrigo)
+		departmentCin.save(failOnError: true)
+		departmentCCEN.addTosubDepartments(departmentCin)
+		departmentCCEN.save(failOnError: true)
+		
+		def companyUFPE = new Company(name: "UFPE")
+		companyUFPE.addTodepartments([departmentCin, departmentArea2, departmentCCSA, departmentCCEN])
+		
+    }
+    def destroy = {
+    }
+}
+//
+//String name
+//	Employee manager
+//	static hasMany = [employees: Employee, subDepartments: Department]
+
+
+//def workTag = new Tag(name: "Trabalho").save(failOnError: true)
+//
+//def task = new Task(summary: "Estudar grails", details: "Tem que estudar grails porra", status: "Open")
+//task.addToTags(workTag)
+//task.save(failOnError: true)

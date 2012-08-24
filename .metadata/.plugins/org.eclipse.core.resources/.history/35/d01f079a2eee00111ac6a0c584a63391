@@ -1,0 +1,38 @@
+import org.softlang.company.Company
+import org.softlang.company.Department
+import org.softlang.company.Employee
+
+class BootStrap {
+
+    def init = { servletContext ->
+		def employeeRodrigo = new Employee(name: "Rodrigo Andrade", salary: 1000d, street: "Rua Faustino Porto", number: 289l, zipcode: "51020-270", city: "Recife", country: "Brasil").save(failOnError: true)
+		def employeePaola = new Employee(name: "Paola Rodrigues", salary: 1000d, street: "Rua boa viagem", number: 389l, zipcode: "51020-100", city: "Recife", country: "Brasil").save(failOnError: true)
+		def employeePaulo = new Employee(name: "Paulo Borba", salary: 500d, street: "Rua 17 de Agosto", number: 259l, zipcode: "51020-500", city: "Recife", country: "Brasil").save(failOnError: true)
+		
+		def departmentCin = new Department(name: "Cin")
+		def departmentCCEN = new Department(name: "CCEN")
+		
+		departmentCin.addToEmployees(employeeRodrigo)
+		departmentCin.addTomanager(employeePaulo)
+		departmentCin.save(failOnError: true)
+		departmentCCEN.addTosubDepartments(departmentCin)
+		departmentCCEN.save(failOnError: true)
+		
+		def companyUFPE = new Company(name: "UFPE")
+		companyUFPE.addTodepartments(departmentCCEN)
+		companyUFPE.save(failOnError: true)
+    }
+    def destroy = {
+    }
+}
+//
+//String name
+//	Employee manager
+//	static hasMany = [employees: Employee, subDepartments: Department]
+
+
+//def workTag = new Tag(name: "Trabalho").save(failOnError: true)
+//
+//def task = new Task(summary: "Estudar grails", details: "Tem que estudar grails porra", status: "Open")
+//task.addToTags(workTag)
+//task.save(failOnError: true)

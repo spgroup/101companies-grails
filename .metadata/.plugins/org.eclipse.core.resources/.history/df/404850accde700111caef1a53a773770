@@ -1,8 +1,0 @@
-package org.softlang.company
-
-import org.springframework.dao.DataIntegrityViolationException
-
-class DepartmentController {
-
-	static scaffold = Department
-}

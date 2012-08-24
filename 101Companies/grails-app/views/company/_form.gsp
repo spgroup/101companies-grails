@@ -1,6 +1,5 @@
+<!-- #if Webui AND Company -->
 <%@ page import="org.softlang.company.Company" %>
-
-
 
 <div class="fieldcontain ${hasErrors(bean: companyInstance, field: 'name', 'error')} required">
 	<label for="name">
@@ -17,4 +16,5 @@
 	</label>
 	<g:select name="departments" from="${org.softlang.company.Department.list()}" multiple="multiple" optionKey="id" size="5" value="${companyInstance?.departments*.id}" class="many-to-many"/>
 </div>
+<!-- #endif Webui AND Company -->
 

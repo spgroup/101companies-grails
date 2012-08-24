@@ -1,4 +1,4 @@
-
+<!-- #if Webui AND Company -->
 <%@ page import="org.softlang.company.Company" %>
 <!doctype html>
 <html>
@@ -54,7 +54,7 @@
 					
 				</li>
 				</g:if>
-		<!-- //#endif Total -->
+			<!-- //#endif Total -->
 			
 			</ol>
 			<g:form>
@@ -62,8 +62,12 @@
 					<g:hiddenField name="id" value="${companyInstance?.id}" />
 					<g:link class="edit" action="edit" id="${companyInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
 					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+					<!-- #if Cut -->
+					<g:actionSubmit class="cut" action="cut" value="${message(code: 'default.button.cut.label', default: 'Cut')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+					<!-- #endif Cut -->
 				</fieldset>
 			</g:form>
 		</div>
 	</body>
 </html>
+<!-- #endif Webui AND Company -->

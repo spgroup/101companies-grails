@@ -1,4 +1,4 @@
-// #if Company
+//#if Company
 package org.softlang.company
 
 class Department {
@@ -28,15 +28,23 @@ class Department {
 		}
 	//#endif Total
 	
-	// #if Valitation
+	//#if Cut
+	void cut() {
+		this.manager.cut();
+		for(department in this.subDepartments) department.cut();
+		for(employee in this.employees) employee.cut();
+	}
+	//#endif Cut
+	
+	//#if Valitation
     static constraints = {
 		manager nullable: false
 		name unique: true, blank: false
     }
-	// #endif Validation
+	//#endif Validation
 	
 	String toString() {
 		return name
 	}
 }
-// #endif Company
+//#endif Company

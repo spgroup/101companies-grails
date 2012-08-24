@@ -1,4 +1,4 @@
-// #if Company
+//#if Company
 package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
@@ -104,4 +104,4 @@ class EmployeeController {
         }
     }
 }
-// #endif Company
+//#endif Company

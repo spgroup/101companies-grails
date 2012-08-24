@@ -1,4 +1,4 @@
-
+<!-- #if Webui AND Company -->
 <%@ page import="org.softlang.company.Company" %>
 <!doctype html>
 <html>
@@ -38,9 +38,12 @@
 				</g:each>
 				</tbody>
 			</table>
+			<!-- //#if Total -->
 			<div class="pagination">
 				<g:paginate total="${companyInstanceTotal}" />
 			</div>
+			<!-- //#endif Total -->
 		</div>
 	</body>
 </html>
+<!-- #endif Webui AND Company -->

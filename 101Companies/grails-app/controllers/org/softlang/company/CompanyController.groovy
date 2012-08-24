@@ -1,3 +1,4 @@
+//#if Company
 package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
@@ -103,4 +104,26 @@ class CompanyController {
             redirect(action: "show", id: id)
         }
     }
+	
+	//#if Cut
+	def cut(Long id) {
+		def companyInstance = Company.get(id)
+		if (!companyInstance) {
+			flash.message = message(code: 'default.not.found.message', args: [message(code: 'company.label', default: 'Company'), id])
+			redirect(action: "list")
+			return
+		}
+
+		try {
+			companyInstance.cut()
+			flash.message = message(code: 'default.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
+			redirect(action: "list")
+		}
+		catch (DataIntegrityViolationException e) {
+			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
+			redirect(action: "show", id: id)
+		}
+	}
+	//#endif Cut
 }
+//#endif Company

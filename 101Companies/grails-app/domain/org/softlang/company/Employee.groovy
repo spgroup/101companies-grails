@@ -1,4 +1,4 @@
-// #if Company
+//#if Company
 package org.softlang.company
 
 class Employee {
@@ -13,7 +13,7 @@ class Employee {
 	String city
 	String country
 	
-	// #if Valitation
+	//#if Valitation
     static constraints = {
 		name blank: false, nullable: false
 		salary min: 1.0d, nullable: false
@@ -24,10 +24,17 @@ class Employee {
 		city blank: false, nullable: false
 		country blank: false, nullable: false
     }
-	// #endif Validation
+	//#endif Validation
 	
 	String toString() {
 		return name
 	}
+	
+	//#if Cut
+	void cut() {
+		salary = salary / 2
+	}
+	//# endif Cut
+	
 }
-// #endif Company
+//#endif Company
