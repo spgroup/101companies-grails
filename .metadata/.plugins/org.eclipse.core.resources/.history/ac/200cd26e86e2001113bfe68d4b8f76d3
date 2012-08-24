@@ -1,0 +1,12 @@
+// #if treeStructure
+package org.softlang.company
+
+class CompanyController {
+
+    static scaffold = Company
+	
+	def index = {
+		def companies = 
+	}
+}
+// #endif
