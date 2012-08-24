@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="91" version="2.0">
+<workbench progressCount="93" version="2.0">
 <workbenchAdvisor/>
 <window height="711" maximized="true" width="1304" x="0" y="22">
 <fastViewData fastViewLocation="1024">
@@ -451,15 +451,11 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" path="/101Companies/grails-app/domain/org/softlang/company/Employee.groovy"/>
 <editor factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.codehaus.groovy.eclipse.editor.GroovyEditor" path="/101Companies/grails-app/domain/org/softlang/company/Employee.groovy"/>
 </editors>
 <item historyLabel="Employee.groovy" index="0">
 <position info="not_deleted" x="90" y="0"/>
 </item>
-<item historyLabel="Dashboard" index="1"/>
-<item active="true" historyLabel="Employee.groovy" index="2">
-<position info="not_deleted" x="90" y="0"/>
-</item>
+<item active="true" historyLabel="Dashboard" index="1"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
