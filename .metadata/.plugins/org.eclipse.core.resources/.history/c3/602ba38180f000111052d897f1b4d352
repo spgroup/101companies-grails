@@ -1,0 +1,12 @@
+package org.softlang
+
+class companyUser {
+    String username
+    String passwordHash
+    
+    static hasMany = [ roles: companyRole, permissions: String ]
+
+    static constraints = {
+        username(nullable: false, blank: false, unique: true)
+    }
+}

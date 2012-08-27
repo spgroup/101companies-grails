@@ -4,7 +4,7 @@
 		<item value="true" key="ShowStatusLine"/>
 		<item value="false" key="ShowDerived"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/i18n/messages_pt_BR.properties&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/i18n/messages.properties&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/conf/BootStrap.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/.link_to_grails_plugins/cache-1.0.0/src/java/grails/plugin/cache/web/filter/AbstractFilter.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/Servers/VMware vFabric tc Server Developer Edition v2.7-config/web.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/.link_to_grails_plugins/shiro-1.1.4/src/java/org/apache/shiro/grails/SavedRequestFilter.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/conf/UrlMappings.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/conf/BootStrap.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/101Companies/grails-app/conf/DataSource.groovy&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="117" key="DIALOG_Y_ORIGIN"/>
@@ -15,7 +15,7 @@
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 	</section>
 	<section name="CleanDialogSettings">
 		<item value="484" key="DIALOG_WIDTH"/>

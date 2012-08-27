@@ -4,11 +4,15 @@ dataSource {
     username = "sa"
     password = ""
 }
+
 hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = false
     cache.region.factory_class = 'net.sf.ehcache.hibernate.EhCacheRegionFactory'
 }
+
+//accessing database: http://localhost:8080/101Companies/dbconsole
+
 // environment specific settings
 environments {
     development {
@@ -16,6 +20,12 @@ environments {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         }
+		//#if Authentication
+		dataSource_authentication {
+			dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+			url = "jdbc:h2:mem:devAuthDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+		}
+		//#endif Authentication
     }
     test {
         dataSource {
@@ -39,5 +49,23 @@ environments {
                validationQuery="SELECT 1"
             }
         }
+		
+		//#if Authentication
+		dataSource_authentication {
+			dbCreate = "update"
+			url = "jdbc:h2:proAuthDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+			pooled = true
+			properties {
+			   maxActive = -1
+			   minEvictableIdleTimeMillis=1800000
+			   timeBetweenEvictionRunsMillis=1800000
+			   numTestsPerEvictionRun=3
+			   testOnBorrow=true
+			   testWhileIdle=true
+			   testOnReturn=true
+			   validationQuery="SELECT 1"
+			}
+		}
+		//#endif Authentication
     }
 }

@@ -1,8 +1,6 @@
 //#if Company
 package org.softlang.company
 
-import org.springframework.aop.aspectj.RuntimeTestWalker.ThisInstanceOfResidueTestVisitor;
-
 class Company {
 
 	String name

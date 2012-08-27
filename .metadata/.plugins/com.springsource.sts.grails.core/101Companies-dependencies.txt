@@ -1,5 +1,5 @@
 #dependencies
-106
+116
 /Users/Rodrigo/.grails/ivy-cache/org.springframework.uaa/org.springframework.uaa.client/bundles/org.springframework.uaa.client-1.0.1.RELEASE.jar
 /Users/Rodrigo/.grails/ivy-cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar
 /Users/Rodrigo/.grails/ivy-cache/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar
@@ -95,6 +95,16 @@
 /Users/Rodrigo/.grails/ivy-cache/log4j/log4j/bundles/log4j-1.2.16.jar
 /Users/Rodrigo/.grails/ivy-cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.6.2.jar
 /Users/Rodrigo/.grails/ivy-cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.6.2.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-ehcache/bundles/shiro-ehcache-1.2.0.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-cas/bundles/shiro-cas-1.2.0.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-web/bundles/shiro-web-1.2.0.jar
+/Users/Rodrigo/.grails/ivy-cache/org.jasig.cas.client/cas-client-core/jars/cas-client-core-3.2.1.jar
+/Users/Rodrigo/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.jar
+/Users/Rodrigo/.grails/ivy-cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-quartz/bundles/shiro-quartz-1.2.0.jar
+/Users/Rodrigo/.grails/ivy-cache/org.opensymphony.quartz/quartz/jars/quartz-1.6.1.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-spring/bundles/shiro-spring-1.2.0.jar
+/Users/Rodrigo/.grails/ivy-cache/org.apache.shiro/shiro-core/bundles/shiro-core-1.2.0.jar
 /Users/Rodrigo/.grails/ivy-cache/org.hibernate/hibernate-core/jars/hibernate-core-3.6.10.Final.jar
 /Users/Rodrigo/.grails/ivy-cache/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.2.0.Final.jar
 /Users/Rodrigo/.grails/ivy-cache/org.hibernate/hibernate-validator/jars/hibernate-validator-4.1.0.Final.jar
@@ -107,7 +117,7 @@
 /Users/Rodrigo/.grails/ivy-cache/org.grails/grails-plugin-testing/jars/grails-plugin-testing-2.1.0.jar
 /Users/Rodrigo/.grails/ivy-cache/org.grails/grails-test/jars/grails-test-2.1.0.jar
 #sources
-35
+41
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/conf
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/i18n
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/blueprint-1.0.2/grails-app/taglib
@@ -138,6 +148,12 @@
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/resources-1.1.6/grails-app/taglib
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/resources-1.1.6/src/groovy
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/resources-1.1.6/src/java
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/grails-app/conf
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/grails-app/i18n
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/grails-app/services
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/grails-app/taglib
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/src/groovy
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/src/java
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/tomcat-2.1.0/src/groovy
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/tomcat-2.1.0/src/java
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/webxml-1.4.1/grails-app/conf
@@ -146,9 +162,10 @@
 #workDir
 /Users/Rodrigo/.grails/2.1.0
 #plugin descriptors
-8
+9
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/webxml-1.4.1/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/tomcat-2.1.0/plugin.xml
+/Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/shiro-1.1.4/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/resources-1.1.6/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/jquery-1.7.2/plugin.xml
 /Users/Rodrigo/.grails/2.1.0/projects/101Companies/plugins/hibernate-2.1.0/plugin.xml

@@ -1,0 +1,12 @@
+package org.softlang
+
+class companyRole {
+    String name
+
+    static hasMany = [ users: companyUser, permissions: String ]
+    static belongsTo = companyUser
+
+    static constraints = {
+        name(nullable: false, blank: false, unique: true)
+    }
+}

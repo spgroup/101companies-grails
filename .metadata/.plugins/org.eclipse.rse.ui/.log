@@ -1,4 +1,4 @@
-Wed Aug 15 14:06:38 GMT-03:00 2012
+Mon Aug 27 14:16:53 GMT-03:00 2012
 ERROR org.eclipse.rse.ui  Error refreshing remote edit project
 org.eclipse.core.internal.resources.ResourceException: Errors occurred while refreshing resources with the local file system.
 	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:923)

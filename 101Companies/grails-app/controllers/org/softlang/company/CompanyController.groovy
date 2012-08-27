@@ -106,6 +106,7 @@ class CompanyController {
     }
 	
 	//#if Cut
+	// verificar se a feature cut realmente est‡ salvando no banco de dados
 	def cut(Long id) {
 		def companyInstance = Company.get(id)
 		if (!companyInstance) {
