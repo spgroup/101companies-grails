@@ -1,6 +1,10 @@
 //#if Company
 package org.softlang.company
 
+//#if Logging
+import org.softlang.Logging
+//#endif Logging
+
 import org.springframework.dao.DataIntegrityViolationException
 
 
@@ -73,7 +77,11 @@ class EmployeeController {
                 return
             }
         }
-
+		
+		//#if Logging
+		double oldSalary = employeeInstance.salary
+		
+		//#endif Logging
         employeeInstance.properties = params
 
         if (!employeeInstance.save(flush: true)) {
@@ -83,6 +91,12 @@ class EmployeeController {
 
         flash.message = message(code: 'default.updated.message', args: [message(code: 'employee.label', default: 'Employee'), employeeInstance.id])
         redirect(action: "show", id: employeeInstance.id)
+		
+		//#if Logging
+		if(oldSalary != employeeInstance.salary){
+		Logging.getInstance().write(employeeInstance, oldSalary)
+		}
+		//#endif Logging 
     }
 
     def delete(Long id) {

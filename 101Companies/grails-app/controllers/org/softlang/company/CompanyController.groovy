@@ -3,6 +3,10 @@ package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
 
+//#if Logging
+import org.softlang.Logging
+//#endif Logging
+
 class CompanyController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
@@ -106,7 +110,7 @@ class CompanyController {
     }
 	
 	//#if Cut
-	// verificar se a feature cut realmente est‡ salvando no banco de dados
+	// verify if the cut feature is really updating the database
 	def cut(Long id) {
 		def companyInstance = Company.get(id)
 		if (!companyInstance) {
@@ -119,6 +123,10 @@ class CompanyController {
 			companyInstance.cut()
 			flash.message = message(code: 'default.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
 			redirect(action: "list")
+			
+			//#if Logging
+			Logging.getInstance().write(null, 0)
+			//#endif
 		}
 		catch (DataIntegrityViolationException e) {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
