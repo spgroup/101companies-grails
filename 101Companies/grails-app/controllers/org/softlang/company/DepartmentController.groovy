@@ -3,6 +3,10 @@ package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
 
+//#if AdvancedLogging
+import org.softlang.Logging
+//#endif AdvancedLogging
+
 class DepartmentController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
@@ -29,6 +33,10 @@ class DepartmentController {
 
         flash.message = message(code: 'default.created.message', args: [message(code: 'department.label', default: 'Department'), departmentInstance.id])
         redirect(action: "show", id: departmentInstance.id)
+		
+		//#if AdvancedLogging
+		Logging.getInstance().writeCreation(departmentInstance)
+		//#endif AdvancedLogging
     }
 
     def show(Long id) {
@@ -55,6 +63,11 @@ class DepartmentController {
 
     def update(Long id, Long version) {
         def departmentInstance = Department.get(id)
+		
+		//#if AdvancedLogging
+		def old = departmentInstance.properties.toString()
+		//#endif AdvancedLogging
+		
         if (!departmentInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'department.label', default: 'Department'), id])
             redirect(action: "list")
@@ -80,6 +93,11 @@ class DepartmentController {
 
         flash.message = message(code: 'default.updated.message', args: [message(code: 'department.label', default: 'Department'), departmentInstance.id])
         redirect(action: "show", id: departmentInstance.id)
+		
+		//#if AdvancedLogging
+		def updated = departmentInstance.properties.toString()
+		Logging.getInstance().writeUpdate('Department', old, updated)
+		//#endif AdvancedLogging
     }
 
     def delete(Long id) {
@@ -94,6 +112,10 @@ class DepartmentController {
             departmentInstance.delete(flush: true)
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'department.label', default: 'Department'), id])
             redirect(action: "list")
+			
+			//#if AdvancedLogging
+			Logging.getInstance().writeDeletion(departmentInstance)
+			//#endif AdvancedLogging
         }
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'department.label', default: 'Department'), id])

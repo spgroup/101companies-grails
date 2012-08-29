@@ -31,9 +31,13 @@ class CompanyController {
             render(view: "create", model: [companyInstance: companyInstance])
             return
         }
-
+		
         flash.message = message(code: 'default.created.message', args: [message(code: 'company.label', default: 'Company'), companyInstance.id])
         redirect(action: "show", id: companyInstance.id)
+		
+		//#if AdvancedLogging
+		Logging.getInstance().writeCreation(companyInstance)
+		//#endif AdvancedLogging
     }
 
     def show(Long id) {
@@ -63,6 +67,11 @@ class CompanyController {
 
     def update(Long id, Long version) {
         def companyInstance = Company.get(id)
+		
+		//#if AdvancedLogging
+		def old = companyInstance.properties.toString()
+		//#endif AdvancedLogging
+		
         if (!companyInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'company.label', default: 'Company'), id])
             redirect(action: "list")
@@ -70,6 +79,7 @@ class CompanyController {
         }
 
         if (version != null) {
+
             if (companyInstance.version > version) {
                 companyInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
                           [message(code: 'company.label', default: 'Company')] as Object[],
@@ -78,7 +88,7 @@ class CompanyController {
                 return
             }
         }
-
+		
         companyInstance.properties = params
 
         if (!companyInstance.save(flush: true)) {
@@ -88,6 +98,12 @@ class CompanyController {
 
         flash.message = message(code: 'default.updated.message', args: [message(code: 'company.label', default: 'Company'), companyInstance.id])
         redirect(action: "show", id: companyInstance.id)
+		
+		//#if AdvancedLogging
+		def updated = companyInstance.properties.toString()
+		
+		Logging.getInstance().writeUpdate('Company', old, updated)
+		//#endif AdvancedLogging
     }
 
     def delete(Long id) {
@@ -102,6 +118,10 @@ class CompanyController {
             companyInstance.delete(flush: true)
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
             redirect(action: "list")
+			
+			//#if AdvancedLogging
+			Logging.getInstance().writeDeletion(companyInstance)
+			//#endif AdvancedLogging
         }
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
