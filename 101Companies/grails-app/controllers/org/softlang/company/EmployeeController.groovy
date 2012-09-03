@@ -67,7 +67,7 @@ class EmployeeController {
         def employeeInstance = Employee.get(id)
 		
 		//#if AdvancedLogging
-		def old = employeeInstance.properties.toString()
+		String old = employeeInstance.properties.toString()
 		//#endif AdvancedLogging
 		
         if (!employeeInstance) {
@@ -107,7 +107,7 @@ class EmployeeController {
 		}
 		
 		//#if AdvancedLogging
-		def updated = employeeInstance.properties.toString()
+		String updated = employeeInstance.properties.toString()
 		Logging.getInstance().writeUpdate('Employee', old, updated)
 		//#endif AdvancedLogging
 		

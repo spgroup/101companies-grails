@@ -96,8 +96,7 @@ void writeUpdate(String treeElementType, String oldTreeElement, String updatedTr
 	
 	String date = new Date(System.currentTimeMillis()).toString() + '\r\n'
 	
-	f << '\r\n' + spacer + date + 'A ' + treeElementType + ' was updated in the System DataBase.\r\n Old properties:\r\n'
-	 + oldTreeElement + '\r\nNew properties:\r\n'+ updatedTreeElement + spacer + '\r\n' 
+	f << '\r\n' + spacer + date + 'A ' + treeElementType + ' was updated in the System DataBase.\r\n Old properties:\r\n' + oldTreeElement + '\r\nNew properties:\r\n'+ updatedTreeElement + '\r\n' + spacer  
 	}
 
 

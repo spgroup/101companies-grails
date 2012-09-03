@@ -69,7 +69,7 @@ class CompanyController {
         def companyInstance = Company.get(id)
 		
 		//#if AdvancedLogging
-		def old = companyInstance.properties.toString()
+		String old = companyInstance.properties.toString()
 		//#endif AdvancedLogging
 		
         if (!companyInstance) {
@@ -100,7 +100,7 @@ class CompanyController {
         redirect(action: "show", id: companyInstance.id)
 		
 		//#if AdvancedLogging
-		def updated = companyInstance.properties.toString()
+		String updated = companyInstance.properties.toString()
 		
 		Logging.getInstance().writeUpdate('Company', old, updated)
 		//#endif AdvancedLogging
