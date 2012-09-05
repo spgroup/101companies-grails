@@ -1,0 +1,80 @@
+index => grails-app/views/index.gsp;
+
+error => grails-app/views/error.gsp;
+
+main => grails-app/views/layouts/main.gsp;
+
+createEmployee => grails-app/views/employee/create.gsp;
+
+editEmployee =>  grails-app/views/employee/edit.gsp;
+
+listEmployee =>  grails-app/views/employee/list.gsp;
+
+showEmployee => grails-app/views/employee/show.gsp;
+
+formEmployee => grails-app/views/employee/form.gsp;
+
+createDepartment => grails-app/views/department/create.gsp;
+
+editDepartment => grails-app/views/department/edit.gsp;
+
+listDepartment => grails-app/views/department/list.gsp;
+
+showDepartment => grails-app/views/department/show.gsp;
+
+formDepartment => grails-app/views/department/form.gsp;
+
+createCompany => grails-app/views/company/create.gsp;
+
+editCompany => grails-app/views/company/edit.gsp;
+
+listCompany => grails-app/views/company/list.gsp;
+
+showCompany => grails-app/views/company/show.gsp;
+
+formCompany => grails-app/views/company/form.gsp;
+
+companyDomain => grails-app/domain/org/softlang/company/Company.groovy;
+
+departmentDomain => grails-app/domain/org/softlang/company/Department.groovy;
+
+employeeDomain => grails-app/domain/org/softlang/company/Employee.groovy;
+
+companyControlller => grails-app/controllers/org/softlang/company/CompanyController.groovy;
+
+departmentController => grails-app/controllers/org/softlang/company/DepartmentController.groovy;
+
+employeeController => grails-app/controllers/org/softlang/company/EmployeeController.groovy;
+
+applicationResources => grails-app/conf/ApplicationResources.groovy;
+
+bootStrap => grails-app/conf/BootStrap.groovy;
+
+buildConfig => grails-app/conf/BuildConfig.groovy;
+
+config => grails-app/conf/Config.groovy
+
+dataSource => grails-app/conf/DataSource.groovy;
+
+urlMappings => grails-app/conf/UrlMappings.groovy;
+
+resources => grails-app/conf/spring/resources.groovy;
+
+login => grails-app/views/auth/login.gsp;
+
+securityFilters => grails-app/conf/org/softlang/SecurityFilters.groovy;
+
+authController => grails-app/controllers/org/softlang/AuthController.groovy;
+
+role => grails-app/domain/org/softlang/Role.groovy;
+
+user => grails-app/domain/org/softlang/User.groovy;
+
+dbRealm => grails-app/realms/org/softlang/DbRealm.groovy;
+
+logging => grails-app/domain/org/softlang/Logging.groovy;
+
+
+
+
+

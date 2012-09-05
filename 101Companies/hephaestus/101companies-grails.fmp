@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fmp:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fmp="http:///fmp.ecore" xmi:id="_84VXIfXqEeG0DY0j4Su_XQ">
+  <model xmi:id="_84a2sPXqEeG0DY0j4Su_XQ" properties="_84bdyvXqEeG0DY0j4Su_XQ">
+    <children xsi:type="fmp:Feature" xmi:id="_YyGocPXtEeG0DY0j4Su_XQ" properties="_YyJrwPXtEeG0DY0j4Su_XQ"/>
+    <children xsi:type="fmp:Feature" xmi:id="_XVkjkPXuEeG0DY0j4Su_XQ" properties="_XVnm4PXuEeG0DY0j4Su_XQ"/>
+    <children xsi:type="fmp:Feature" xmi:id="_d1_ZEPXtEeG0DY0j4Su_XQ" properties="_d2DDcPXtEeG0DY0j4Su_XQ"/>
+    <children xsi:type="fmp:Feature" xmi:id="_lvS3oPXtEeG0DY0j4Su_XQ" properties="_lvV68PXtEeG0DY0j4Su_XQ">
+      <children xsi:type="fmp:Feature" xmi:id="_o7u-cPXtEeG0DY0j4Su_XQ" properties="_o7yBwPXtEeG0DY0j4Su_XQ"/>
+    </children>
+    <children xsi:type="fmp:Feature" xmi:id="_iXkt4PXtEeG0DY0j4Su_XQ" properties="_iXnxMPXtEeG0DY0j4Su_XQ"/>
+  </model>
+  <metaModel xmi:id="_84a2sfXqEeG0DY0j4Su_XQ" properties="_84cE3_XqEeG0DY0j4Su_XQ">
+    <children xsi:type="fmp:Feature" xmi:id="_84a2svXqEeG0DY0j4Su_XQ" properties="_84cE9_XqEeG0DY0j4Su_XQ">
+      <children xsi:type="fmp:Feature" xmi:id="_84a2s_XqEeG0DY0j4Su_XQ" properties="_84cr5_XqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84a2tPXqEeG0DY0j4Su_XQ" properties="_84cr__XqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84a2tfXqEeG0DY0j4Su_XQ" properties="_84csGPXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84a2tvXqEeG0DY0j4Su_XQ" properties="_84dTBvXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:FeatureGroup" xmi:id="_84a2t_XqEeG0DY0j4Su_XQ" properties="_84hkrPXqEeG0DY0j4Su_XQ">
+          <children xsi:type="fmp:Feature" xmi:id="_84a2uPXqEeG0DY0j4Su_XQ" properties="_84dTHvXqEeG0DY0j4Su_XQ">
+            <children xsi:type="fmp:Feature" xmi:id="_84a2ufXqEeG0DY0j4Su_XQ" properties="_84d6C_XqEeG0DY0j4Su_XQ"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84a2uvXqEeG0DY0j4Su_XQ" properties="_84d6I_XqEeG0DY0j4Su_XQ"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84a2u_XqEeG0DY0j4Su_XQ" properties="_84ehE_XqEeG0DY0j4Su_XQ">
+            <children xsi:type="fmp:Feature" xmi:id="_84bdwPXqEeG0DY0j4Su_XQ" properties="_84ehK_XqEeG0DY0j4Su_XQ"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84bdwfXqEeG0DY0j4Su_XQ" properties="_84fIJfXqEeG0DY0j4Su_XQ"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84bdwvXqEeG0DY0j4Su_XQ" properties="_84fIPfXqEeG0DY0j4Su_XQ">
+            <children xsi:type="fmp:Feature" xmi:id="_84bdw_XqEeG0DY0j4Su_XQ" properties="_84fIVfXqEeG0DY0j4Su_XQ"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84bdxPXqEeG0DY0j4Su_XQ" properties="_84fvMfXqEeG0DY0j4Su_XQ"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84bdxfXqEeG0DY0j4Su_XQ" properties="_84fvSfXqEeG0DY0j4Su_XQ">
+            <children xsi:type="fmp:Feature" xmi:id="_84bdxvXqEeG0DY0j4Su_XQ" properties="_84fvYfXqEeG0DY0j4Su_XQ"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84bdx_XqEeG0DY0j4Su_XQ" properties="_84fvefXqEeG0DY0j4Su_XQ"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="fmp:Feature" xmi:id="_84bdyPXqEeG0DY0j4Su_XQ" properties="_84gWRvXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bdyfXqEeG0DY0j4Su_XQ" properties="_84gWX_XqEeG0DY0j4Su_XQ"/>
+      <configurations xmi:id="_84bdyvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2sPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84bdy_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_b4VkAPd2EeGXj4o2QzHeXw" stringValue="Companies"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84bdzfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_84bdzvXqEeG0DY0j4Su_XQ" stringValue="101Companies"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84bdz_XqEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84bd0PXqEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84bd0fXqEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84bd0vXqEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84bd0_XqEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84bd1PXqEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84bd1fXqEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84bd1vXqEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84bd1_XqEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84bd2PXqEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84bd2fXqEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84bd2vXqEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84bd2_XqEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84bd3PXqEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84bd3fXqEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84bd3vXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84bd3_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84bd4PXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84bd4fXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_YyJrwPXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_YyGocPXtEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_YyJrwfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_crKn4PXxEeG0DY0j4Su_XQ" stringValue="treeStructure"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_YyJrwvXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2MPdmEeGXj4o2QzHeXw" stringValue="treeStructure"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_YyJrxPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_YyJrxfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_YyJrxvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_YyJrx_XtEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_YyJryPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_YyJryfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_YyJryvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_YyJry_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_YyJrzPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_YyJrzfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_YyJrzvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_YyJrz_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_YyJr0PXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_YyJr0fXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_YyJr0vXtEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_YyJr0_XtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_YyKS0fXtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_YyJr1fXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_YyKS0vXtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_WTNacPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_YyJrwPXtEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_WTNacfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_YyJrwfXtEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_WTOBlPdpEeGXj4o2QzHeXw" stringValue="treeStructure"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_WTNac_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_YyJrwvXtEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_WTOokfdpEeGXj4o2QzHeXw" stringValue="treeStructure"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_WTNadfdpEeGXj4o2QzHeXw" max="1" origin="_YyJrxPXtEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_WTNadvdpEeGXj4o2QzHeXw" max="1" origin="_YyJrxfXtEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_WTOBgPdpEeGXj4o2QzHeXw" max="1" origin="_YyJrxvXtEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_WTOBgfdpEeGXj4o2QzHeXw" max="1" origin="_YyJrx_XtEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBgvdpEeGXj4o2QzHeXw" max="1" origin="_YyJryPXtEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBg_dpEeGXj4o2QzHeXw" max="1" origin="_YyJryfXtEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_WTOBhPdpEeGXj4o2QzHeXw" max="1" origin="_YyJryvXtEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBhfdpEeGXj4o2QzHeXw" max="1" origin="_YyJry_XtEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBhvdpEeGXj4o2QzHeXw" max="1" origin="_YyJrzPXtEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_WTOBh_dpEeGXj4o2QzHeXw" max="1" origin="_YyJrzfXtEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBiPdpEeGXj4o2QzHeXw" max="1" origin="_YyJrzvXtEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBifdpEeGXj4o2QzHeXw" max="1" origin="_YyJrz_XtEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_WTOBivdpEeGXj4o2QzHeXw" max="1" origin="_YyJr0PXtEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBi_dpEeGXj4o2QzHeXw" max="1" origin="_YyJr0fXtEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_WTOBjPdpEeGXj4o2QzHeXw" max="1" origin="_YyJr0vXtEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_WTOBjfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_YyJr0_XtEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_WTOBkvdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_WTOBj_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_YyJr1fXtEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_WTOBk_dpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+          <configurations xmi:id="_ac-sMPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_WTNacPdpEeGXj4o2QzHeXw" id="feature" name="Feature" valueType="NONE">
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sMfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_WTNacfdpEeGXj4o2QzHeXw" id="name" name="Name" valueType="STRING">
+              <typedValue xmi:id="_ac_TQ_dpEeGXj4o2QzHeXw" stringValue="treeStructure"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sM_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_WTNac_dpEeGXj4o2QzHeXw" id="id" name="Id" valueType="STRING">
+              <typedValue xmi:id="_ac_6UfdpEeGXj4o2QzHeXw" stringValue="treeStructure"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sNfdpEeGXj4o2QzHeXw" max="1" origin="_WTNadfdpEeGXj4o2QzHeXw" id="description" name="Description" valueType="STRING"/>
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sNvdpEeGXj4o2QzHeXw" max="1" origin="_WTNadvdpEeGXj4o2QzHeXw" id="attribute" name="Attribute" valueType="NONE">
+              <children xsi:type="fmp:FeatureGroup" xmi:id="_ac-sN_dpEeGXj4o2QzHeXw" max="1" origin="_WTOBgPdpEeGXj4o2QzHeXw" id="typeGroup">
+                <children xsi:type="fmp:Feature" xmi:id="_ac-sOPdpEeGXj4o2QzHeXw" max="1" origin="_WTOBgfdpEeGXj4o2QzHeXw" id="integerVar" name="Integer" valueType="NONE">
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sOfdpEeGXj4o2QzHeXw" max="1" origin="_WTOBgvdpEeGXj4o2QzHeXw" id="value" name="Value" valueType="INTEGER"/>
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sOvdpEeGXj4o2QzHeXw" max="1" origin="_WTOBg_dpEeGXj4o2QzHeXw" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+                </children>
+                <children xsi:type="fmp:Feature" xmi:id="_ac-sO_dpEeGXj4o2QzHeXw" max="1" origin="_WTOBhPdpEeGXj4o2QzHeXw" id="floatVar" name="Float" valueType="NONE">
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sPPdpEeGXj4o2QzHeXw" max="1" origin="_WTOBhfdpEeGXj4o2QzHeXw" id="value0" name="Value" valueType="FLOAT"/>
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sPfdpEeGXj4o2QzHeXw" max="1" origin="_WTOBhvdpEeGXj4o2QzHeXw" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+                </children>
+                <children xsi:type="fmp:Feature" xmi:id="_ac-sPvdpEeGXj4o2QzHeXw" max="1" origin="_WTOBh_dpEeGXj4o2QzHeXw" id="stringVar" name="String" valueType="NONE">
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sP_dpEeGXj4o2QzHeXw" max="1" origin="_WTOBiPdpEeGXj4o2QzHeXw" id="value1" name="Value" valueType="STRING"/>
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sQPdpEeGXj4o2QzHeXw" max="1" origin="_WTOBifdpEeGXj4o2QzHeXw" id="defaultValue1" name="Default Value" valueType="STRING"/>
+                </children>
+                <children xsi:type="fmp:Feature" xmi:id="_ac-sQfdpEeGXj4o2QzHeXw" max="1" origin="_WTOBivdpEeGXj4o2QzHeXw" id="feature0" name="Feature" valueType="NONE">
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sQvdpEeGXj4o2QzHeXw" max="1" origin="_WTOBi_dpEeGXj4o2QzHeXw" id="value2" name="Value"/>
+                  <children xsi:type="fmp:Feature" xmi:id="_ac-sQ_dpEeGXj4o2QzHeXw" max="1" origin="_WTOBjPdpEeGXj4o2QzHeXw" id="defaultValue2" name="Default Value"/>
+                </children>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sRPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_WTOBjfdpEeGXj4o2QzHeXw" id="min" name="Min" valueType="INTEGER">
+              <typedValue xmi:id="_ac_TQfdpEeGXj4o2QzHeXw" integerValue="1"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_ac-sRvdpEeGXj4o2QzHeXw" max="1" min="1" origin="_WTOBj_dpEeGXj4o2QzHeXw" id="max" name="Max" valueType="INTEGER">
+              <typedValue xmi:id="_ac_TQvdpEeGXj4o2QzHeXw" integerValue="1"/>
+            </children>
+          </configurations>
+        </configurations>
+      </configurations>
+      <configurations xmi:id="_d2DDcPXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_d1_ZEPXtEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDcfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_eWFRkPXxEeG0DY0j4Su_XQ" stringValue="cut"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDcvXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2MvdmEeGXj4o2QzHeXw" stringValue="cut"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDdPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDdfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_d2DDdvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_d2DDd_XtEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDePXtEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDefXtEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_d2DDevXtEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDe_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDfPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_d2DDffXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDfvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDf_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_d2DDgPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDgfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_d2DDgvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDg_XtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_d2DDiPXtEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_d2DDhfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_d2DDifXtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_dPjhgPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_d2DDcPXtEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_dPjhgfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_d2DDcfXtEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_dPkvofdpEeGXj4o2QzHeXw" stringValue="cut"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_dPkIkfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_d2DDcvXtEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_dPkvo_dpEeGXj4o2QzHeXw" stringValue="cut"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_dPkIk_dpEeGXj4o2QzHeXw" max="1" origin="_d2DDdPXtEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_dPkIlPdpEeGXj4o2QzHeXw" max="1" origin="_d2DDdfXtEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_dPkIlfdpEeGXj4o2QzHeXw" max="1" origin="_d2DDdvXtEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_dPkIlvdpEeGXj4o2QzHeXw" max="1" origin="_d2DDd_XtEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_dPkIl_dpEeGXj4o2QzHeXw" max="1" origin="_d2DDePXtEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_dPkImPdpEeGXj4o2QzHeXw" max="1" origin="_d2DDefXtEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_dPkImfdpEeGXj4o2QzHeXw" max="1" origin="_d2DDevXtEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_dPkImvdpEeGXj4o2QzHeXw" max="1" origin="_d2DDe_XtEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_dPkIm_dpEeGXj4o2QzHeXw" max="1" origin="_d2DDfPXtEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_dPkInPdpEeGXj4o2QzHeXw" max="1" origin="_d2DDffXtEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_dPkInfdpEeGXj4o2QzHeXw" max="1" origin="_d2DDfvXtEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_dPkInvdpEeGXj4o2QzHeXw" max="1" origin="_d2DDf_XtEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_dPkIn_dpEeGXj4o2QzHeXw" max="1" origin="_d2DDgPXtEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_dPkIoPdpEeGXj4o2QzHeXw" max="1" origin="_d2DDgfXtEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_dPkIofdpEeGXj4o2QzHeXw" max="1" origin="_d2DDgvXtEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_dPkIovdpEeGXj4o2QzHeXw" max="1" min="1" origin="_d2DDg_XtEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_dPkIp_dpEeGXj4o2QzHeXw" integerValue="0"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_dPkIpPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_d2DDhfXtEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_dPkvoPdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+        </configurations>
+      </configurations>
+      <configurations xmi:id="_iXnxMPXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_iXkt4PXtEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxMfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_fcwlwPXxEeG0DY0j4Su_XQ" stringValue="total"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxMvXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2NfdmEeGXj4o2QzHeXw" stringValue="total"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxNPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxNfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_iXnxNvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_iXnxN_XtEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxOPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxOfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_iXnxOvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxO_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxPPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_iXnxPfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxPvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxP_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_iXnxQPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxQfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_iXnxQvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxQ_XtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_iXoYQPXtEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_iXnxRfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_iXoYQfXtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_ev558PdpEeGXj4o2QzHeXw" max="1" min="1" origin="_iXnxMPXtEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_ev558fdpEeGXj4o2QzHeXw" max="1" min="1" origin="_iXnxMfXtEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_ev6hA_dpEeGXj4o2QzHeXw" stringValue="total"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_ev558_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_iXnxMvXtEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_ev7IEfdpEeGXj4o2QzHeXw" stringValue="total"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_ev559fdpEeGXj4o2QzHeXw" max="1" origin="_iXnxNPXtEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_ev559vdpEeGXj4o2QzHeXw" max="1" origin="_iXnxNfXtEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_ev559_dpEeGXj4o2QzHeXw" max="1" origin="_iXnxNvXtEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_ev55-PdpEeGXj4o2QzHeXw" max="1" origin="_iXnxN_XtEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_ev55-fdpEeGXj4o2QzHeXw" max="1" origin="_iXnxOPXtEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_ev55-vdpEeGXj4o2QzHeXw" max="1" origin="_iXnxOfXtEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_ev55-_dpEeGXj4o2QzHeXw" max="1" origin="_iXnxOvXtEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_ev55_PdpEeGXj4o2QzHeXw" max="1" origin="_iXnxO_XtEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_ev55_fdpEeGXj4o2QzHeXw" max="1" origin="_iXnxPPXtEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_ev55_vdpEeGXj4o2QzHeXw" max="1" origin="_iXnxPfXtEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_ev55__dpEeGXj4o2QzHeXw" max="1" origin="_iXnxPvXtEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_ev56APdpEeGXj4o2QzHeXw" max="1" origin="_iXnxP_XtEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_ev56AfdpEeGXj4o2QzHeXw" max="1" origin="_iXnxQPXtEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_ev56AvdpEeGXj4o2QzHeXw" max="1" origin="_iXnxQfXtEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_ev56A_dpEeGXj4o2QzHeXw" max="1" origin="_iXnxQvXtEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_ev56BPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_iXnxQ_XtEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_ev6hAfdpEeGXj4o2QzHeXw" integerValue="0"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_ev56BvdpEeGXj4o2QzHeXw" max="1" min="1" origin="_iXnxRfXtEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_ev6hAvdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+        </configurations>
+      </configurations>
+      <configurations xmi:id="_lvV68PXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_lvS3oPXtEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_lvV68fXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_fAHtEPXxEeG0DY0j4Su_XQ" stringValue="logging"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_lvV68vXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2M_dmEeGXj4o2QzHeXw" stringValue="logging"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_lvV69PXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_lvV69fXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_lvV69vXtEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_lvV69_XtEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6-PXtEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6-fXtEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_lvV6-vXtEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6-_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6_PXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_lvV6_fXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6_vXtEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_lvV6__XtEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_lvV7APXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_lvV7AfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_lvV7AvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_lvV7A_XtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_lvWiAvXtEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_lvV7BfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_lvWiA_XtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_eW3H0PdpEeGXj4o2QzHeXw" max="1" min="1" origin="_lvV68PXtEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H0fdpEeGXj4o2QzHeXw" max="1" min="1" origin="_lvV68fXtEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_eW3u4vdpEeGXj4o2QzHeXw" stringValue="logging"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H0_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_lvV68vXtEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_eW6LIvdpEeGXj4o2QzHeXw" stringValue="logging"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H1fdpEeGXj4o2QzHeXw" max="1" origin="_lvV69PXtEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H1vdpEeGXj4o2QzHeXw" max="1" origin="_lvV69fXtEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_eW3H1_dpEeGXj4o2QzHeXw" max="1" origin="_lvV69vXtEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_eW3H2PdpEeGXj4o2QzHeXw" max="1" origin="_lvV69_XtEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H2fdpEeGXj4o2QzHeXw" max="1" origin="_lvV6-PXtEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H2vdpEeGXj4o2QzHeXw" max="1" origin="_lvV6-fXtEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW3H2_dpEeGXj4o2QzHeXw" max="1" origin="_lvV6-vXtEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H3PdpEeGXj4o2QzHeXw" max="1" origin="_lvV6-_XtEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H3fdpEeGXj4o2QzHeXw" max="1" origin="_lvV6_PXtEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW3H3vdpEeGXj4o2QzHeXw" max="1" origin="_lvV6_fXtEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H3_dpEeGXj4o2QzHeXw" max="1" origin="_lvV6_vXtEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H4PdpEeGXj4o2QzHeXw" max="1" origin="_lvV6__XtEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW3H4fdpEeGXj4o2QzHeXw" max="1" origin="_lvV7APXtEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H4vdpEeGXj4o2QzHeXw" max="1" origin="_lvV7AfXtEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW3H4_dpEeGXj4o2QzHeXw" max="1" origin="_lvV7AvXtEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H5PdpEeGXj4o2QzHeXw" max="1" min="1" origin="_lvV7A_XtEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_eW3u4PdpEeGXj4o2QzHeXw" integerValue="0"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW3H5vdpEeGXj4o2QzHeXw" max="1" min="1" origin="_lvV7BfXtEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_eW3u4fdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+        </configurations>
+      </configurations>
+      <configurations xmi:id="_o7yBwPXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_o7u-cPXtEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_o7yBwfXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_gPrQcPXxEeG0DY0j4Su_XQ" stringValue="advancedLogging"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_o7yBwvXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2NPdmEeGXj4o2QzHeXw" stringValue="advancedLogging"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_o7yBxPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_o7yBxfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_o7yBxvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_o7yBx_XtEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_o7yByPXtEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_o7yByfXtEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_o7yByvXtEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_o7yBy_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_o7yBzPXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_o7yBzfXtEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_o7yBzvXtEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_o7yBz_XtEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_o7yB0PXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_o7yB0fXtEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_o7yB0vXtEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_o7yB0_XtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_o7yo0fXtEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_o7yB1fXtEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_o7yo0vXtEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_eW49APdpEeGXj4o2QzHeXw" max="1" min="1" origin="_o7yBwPXtEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_eW49AfdpEeGXj4o2QzHeXw" max="1" min="1" origin="_o7yBwfXtEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_eW5kEvdpEeGXj4o2QzHeXw" stringValue="advancedLogging"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW49A_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_o7yBwvXtEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_eW6LI_dpEeGXj4o2QzHeXw" stringValue="advancedLogging"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW49BfdpEeGXj4o2QzHeXw" max="1" origin="_o7yBxPXtEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_eW49BvdpEeGXj4o2QzHeXw" max="1" origin="_o7yBxfXtEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_eW49B_dpEeGXj4o2QzHeXw" max="1" origin="_o7yBxvXtEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_eW49CPdpEeGXj4o2QzHeXw" max="1" origin="_o7yBx_XtEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW49CfdpEeGXj4o2QzHeXw" max="1" origin="_o7yByPXtEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW49CvdpEeGXj4o2QzHeXw" max="1" origin="_o7yByfXtEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW49C_dpEeGXj4o2QzHeXw" max="1" origin="_o7yByvXtEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW49DPdpEeGXj4o2QzHeXw" max="1" origin="_o7yBy_XtEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW49DfdpEeGXj4o2QzHeXw" max="1" origin="_o7yBzPXtEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW49DvdpEeGXj4o2QzHeXw" max="1" origin="_o7yBzfXtEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW49D_dpEeGXj4o2QzHeXw" max="1" origin="_o7yBzvXtEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW49EPdpEeGXj4o2QzHeXw" max="1" origin="_o7yBz_XtEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_eW49EfdpEeGXj4o2QzHeXw" max="1" origin="_o7yB0PXtEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_eW49EvdpEeGXj4o2QzHeXw" max="1" origin="_o7yB0fXtEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_eW49E_dpEeGXj4o2QzHeXw" max="1" origin="_o7yB0vXtEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW49FPdpEeGXj4o2QzHeXw" max="1" min="1" origin="_o7yB0_XtEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_eW5kEPdpEeGXj4o2QzHeXw" integerValue="0"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_eW49FvdpEeGXj4o2QzHeXw" max="1" min="1" origin="_o7yB1fXtEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_eW5kEfdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+        </configurations>
+      </configurations>
+      <configurations xmi:id="_XVnm4PXuEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2svXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_XVkjkPXuEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm4fXuEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2s_XqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_d1FdUPXxEeG0DY0j4Su_XQ" stringValue="authentication"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm4vXuEeG0DY0j4Su_XQ" max="1" min="1" origin="_84a2tPXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2MfdmEeGXj4o2QzHeXw" stringValue="authentication"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm5PXuEeG0DY0j4Su_XQ" max="1" origin="_84a2tfXqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm5fXuEeG0DY0j4Su_XQ" max="1" origin="_84a2tvXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_XVnm5vXuEeG0DY0j4Su_XQ" max="1" origin="_84a2t_XqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_XVnm5_XuEeG0DY0j4Su_XQ" max="1" origin="_84a2uPXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm6PXuEeG0DY0j4Su_XQ" max="1" origin="_84a2ufXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm6fXuEeG0DY0j4Su_XQ" max="1" origin="_84a2uvXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_XVnm6vXuEeG0DY0j4Su_XQ" max="1" origin="_84a2u_XqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm6_XuEeG0DY0j4Su_XQ" max="1" origin="_84bdwPXqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm7PXuEeG0DY0j4Su_XQ" max="1" origin="_84bdwfXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_XVnm7fXuEeG0DY0j4Su_XQ" max="1" origin="_84bdwvXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm7vXuEeG0DY0j4Su_XQ" max="1" origin="_84bdw_XqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm7_XuEeG0DY0j4Su_XQ" max="1" origin="_84bdxPXqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_XVnm8PXuEeG0DY0j4Su_XQ" max="1" origin="_84bdxfXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm8fXuEeG0DY0j4Su_XQ" max="1" origin="_84bdxvXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_XVnm8vXuEeG0DY0j4Su_XQ" max="1" origin="_84bdx_XqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm8_XuEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_XVoN8fXuEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_XVnm9fXuEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bdyfXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_XVoN8vXuEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <configurations xmi:id="_brMy0PdpEeGXj4o2QzHeXw" max="1" min="1" origin="_XVnm4PXuEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE">
+          <children xsi:type="fmp:Feature" xmi:id="_brMy0fdpEeGXj4o2QzHeXw" max="1" min="1" origin="_XVnm4fXuEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+            <typedValue xmi:id="_brOA8PdpEeGXj4o2QzHeXw" stringValue="authentication"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_brMy0_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_XVnm4vXuEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+            <typedValue xmi:id="_brOA8vdpEeGXj4o2QzHeXw" stringValue="authentication"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_brNZ4PdpEeGXj4o2QzHeXw" max="1" origin="_XVnm5PXuEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+          <children xsi:type="fmp:Feature" xmi:id="_brNZ4fdpEeGXj4o2QzHeXw" max="1" origin="_XVnm5fXuEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+            <children xsi:type="fmp:FeatureGroup" xmi:id="_brNZ4vdpEeGXj4o2QzHeXw" max="1" origin="_XVnm5vXuEeG0DY0j4Su_XQ" id="typeGroup">
+              <children xsi:type="fmp:Feature" xmi:id="_brNZ4_dpEeGXj4o2QzHeXw" max="1" origin="_XVnm5_XuEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ5PdpEeGXj4o2QzHeXw" max="1" origin="_XVnm6PXuEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ5fdpEeGXj4o2QzHeXw" max="1" origin="_XVnm6fXuEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_brNZ5vdpEeGXj4o2QzHeXw" max="1" origin="_XVnm6vXuEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ5_dpEeGXj4o2QzHeXw" max="1" origin="_XVnm6_XuEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ6PdpEeGXj4o2QzHeXw" max="1" origin="_XVnm7PXuEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_brNZ6fdpEeGXj4o2QzHeXw" max="1" origin="_XVnm7fXuEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ6vdpEeGXj4o2QzHeXw" max="1" origin="_XVnm7vXuEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ6_dpEeGXj4o2QzHeXw" max="1" origin="_XVnm7_XuEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+              </children>
+              <children xsi:type="fmp:Feature" xmi:id="_brNZ7PdpEeGXj4o2QzHeXw" max="1" origin="_XVnm8PXuEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ7fdpEeGXj4o2QzHeXw" max="1" origin="_XVnm8fXuEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+                <children xsi:type="fmp:Feature" xmi:id="_brNZ7vdpEeGXj4o2QzHeXw" max="1" origin="_XVnm8vXuEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+              </children>
+            </children>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_brNZ7_dpEeGXj4o2QzHeXw" max="1" min="1" origin="_XVnm8_XuEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+            <typedValue xmi:id="_brNZ9PdpEeGXj4o2QzHeXw" integerValue="0"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_brNZ8fdpEeGXj4o2QzHeXw" max="1" min="1" origin="_XVnm9fXuEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+            <typedValue xmi:id="_brNZ9fdpEeGXj4o2QzHeXw" integerValue="1"/>
+          </children>
+        </configurations>
+      </configurations>
+    </children>
+    <children xsi:type="fmp:Feature" xmi:id="_84bd4vXqEeG0DY0j4Su_XQ" properties="_84gWePXqEeG0DY0j4Su_XQ">
+      <children xsi:type="fmp:Feature" xmi:id="_84bd4_XqEeG0DY0j4Su_XQ" properties="_84gWkPXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd5PXqEeG0DY0j4Su_XQ" properties="_84g9XvXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd5fXqEeG0DY0j4Su_XQ" properties="_84g9d_XqEeG0DY0j4Su_XQ"/>
+    </children>
+    <children xsi:type="fmp:Feature" xmi:id="_84bd5vXqEeG0DY0j4Su_XQ" properties="_84g9kPXqEeG0DY0j4Su_XQ">
+      <children xsi:type="fmp:Reference" xmi:id="_84bd5_XqEeG0DY0j4Su_XQ" properties="_84hkuvXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd6PXqEeG0DY0j4Su_XQ" properties="_84g9qPXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd6fXqEeG0DY0j4Su_XQ" properties="_84hkdPXqEeG0DY0j4Su_XQ"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd6vXqEeG0DY0j4Su_XQ" properties="_84hkjfXqEeG0DY0j4Su_XQ"/>
+    </children>
+  </metaModel>
+  <metaMetaModel xmi:id="_84bd6_XqEeG0DY0j4Su_XQ" max="1" min="1" id="MetaMetaModel" name="MetaMetaModel" valueType="NONE">
+    <children xsi:type="fmp:Feature" xmi:id="_84bd7PXqEeG0DY0j4Su_XQ" max="1" min="1" id="feature" name="Feature" valueType="NONE">
+      <children xsi:type="fmp:Feature" xmi:id="_84bd7fXqEeG0DY0j4Su_XQ" max="1" min="1" id="name" name="Name" valueType="STRING"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd7vXqEeG0DY0j4Su_XQ" max="1" min="1" id="id" name="Id" valueType="STRING"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd7_XqEeG0DY0j4Su_XQ" max="1" id="description" name="Description" valueType="STRING"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84bd8PXqEeG0DY0j4Su_XQ" max="1" id="attribute" name="Attribute" valueType="NONE">
+        <children xsi:type="fmp:FeatureGroup" xmi:id="_84bd8fXqEeG0DY0j4Su_XQ" max="1" id="typeGroup">
+          <children xsi:type="fmp:Feature" xmi:id="_84bd8vXqEeG0DY0j4Su_XQ" max="1" id="integerVar" name="Integer" valueType="NONE">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE0PXqEeG0DY0j4Su_XQ" max="1" id="value" name="Value" valueType="INTEGER"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE0fXqEeG0DY0j4Su_XQ" max="1" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84cE0vXqEeG0DY0j4Su_XQ" max="1" id="floatVar" name="Float" valueType="NONE">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE0_XqEeG0DY0j4Su_XQ" max="1" id="value0" name="Value" valueType="FLOAT"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE1PXqEeG0DY0j4Su_XQ" max="1" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84cE1fXqEeG0DY0j4Su_XQ" max="1" id="stringVar" name="String" valueType="NONE">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE1vXqEeG0DY0j4Su_XQ" max="1" id="value1" name="Value" valueType="STRING"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE1_XqEeG0DY0j4Su_XQ" max="1" id="defaultValue1" name="Default Value" valueType="STRING"/>
+          </children>
+          <children xsi:type="fmp:Feature" xmi:id="_84cE2PXqEeG0DY0j4Su_XQ" max="1" id="feature0" name="Feature" valueType="NONE">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE2fXqEeG0DY0j4Su_XQ" max="1" id="value2" name="Value"/>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE2vXqEeG0DY0j4Su_XQ" max="1" id="defaultValue2" name="Default Value"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="fmp:Feature" xmi:id="_84cE2_XqEeG0DY0j4Su_XQ" max="1" min="1" id="min" name="Min" valueType="INTEGER">
+        <typedValue xmi:id="_84cE3PXqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <children xsi:type="fmp:Feature" xmi:id="_84cE3fXqEeG0DY0j4Su_XQ" max="1" min="1" id="max" name="Max" valueType="INTEGER">
+        <typedValue xmi:id="_84cE3vXqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <configurations xmi:id="_84cE3_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2sfXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84cE4PXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84cE4fXqEeG0DY0j4Su_XQ" stringValue="MetaModel"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE4vXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_84cE4_XqEeG0DY0j4Su_XQ" stringValue="MetaModel"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE5PXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE5fXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84cE5vXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE5_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cE6PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cE6fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE6vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cE6_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cE7PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE7fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cE7vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cE7_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cE8PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cE8fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cE8vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE8_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84cE9PXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE9fXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84cE9vXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84cE9_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2svXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84cE-PXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84cE-fXqEeG0DY0j4Su_XQ" stringValue="Feature"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE-vXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2NvdmEeGXj4o2QzHeXw" stringValue="feature"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE_PXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84cE_fXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84cE_vXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84cE__XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cFAPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cFAfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cFAvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cFA_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cFBPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cFBfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cFBvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cFB_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cr4PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cr4fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cr4vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr4_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84cr5PXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr5fXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84cr5vXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84cr5_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2s_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84cr6PXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84cr6fXqEeG0DY0j4Su_XQ" stringValue="Name"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr6vXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2N_dmEeGXj4o2QzHeXw" stringValue="name"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr7PXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr7fXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84cr7vXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84cr7_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cr8PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cr8fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cr8vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cr8_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cr9PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cr9fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cr9vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cr9_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84cr-PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84cr-fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84cr-vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr-_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84cr_PXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84cr_fXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84cr_vXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84cr__XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2tPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84csAPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84csAfXqEeG0DY0j4Su_XQ" stringValue="Id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84csAvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2OPdmEeGXj4o2QzHeXw" stringValue="id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84csBPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84csBfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84csBvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84csB_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84csCPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84csCfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84csCvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84csC_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84csDPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84csDfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84csDvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84csD_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="USER_SELECTED" name="Default Value" valueType="STRING">
+                <typedValue xmi:id="_84csEPXqEeG0DY0j4Su_XQ" stringValue="featureVar"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84csEfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84csEvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84csE_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84csFPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84csFfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84csFvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84csF_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84csGPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2tfXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84csGfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84dS8PXqEeG0DY0j4Su_XQ" stringValue="Description"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dS8fXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2OfdmEeGXj4o2QzHeXw" stringValue="description"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dS8_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84dS9PXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84dS9fXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84dS9vXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dS9_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dS-PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dS-fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dS-vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dS-_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dS_PXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dS_fXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dS_vXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dS__XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTAPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTAfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTAvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84dTA_XqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTBPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84dTBfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84dTBvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2tvXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84dTB_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84dTCPXqEeG0DY0j4Su_XQ" stringValue="Attribute"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTCfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2OvdmEeGXj4o2QzHeXw" stringValue="attribute"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTC_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTDPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84dTDfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84dTDvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTD_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTEPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dTEfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTEvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTE_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dTFPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTFfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTFvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dTF_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTGPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTGfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTGvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84dTG_XqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTHPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84dTHfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84dTHvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2uPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84dTH_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84dTIPXqEeG0DY0j4Su_XQ" stringValue="Integer"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTIfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2PPdmEeGXj4o2QzHeXw" stringValue="integerVar"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTI_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84dTJPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84dTJfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84dTJvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTJ_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84dTKPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84dTKfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84dTKvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6APXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6AfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6AvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6A_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6BPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6BfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6BvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6B_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84d6CPXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6CfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84d6CvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84d6C_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2ufXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84d6DPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84d6DfXqEeG0DY0j4Su_XQ" stringValue="Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6DvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2PfdmEeGXj4o2QzHeXw" stringValue="value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6EPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6EfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84d6EvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84d6E_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6FPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6FfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6FvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6F_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6GPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6GfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6GvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6G_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6HPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6HfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6HvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6H_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84d6IPXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6IfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84d6IvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84d6I_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2uvXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84d6JPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84d6JfXqEeG0DY0j4Su_XQ" stringValue="Default Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6JvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2PvdmEeGXj4o2QzHeXw" stringValue="defaultValue"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6KPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6KfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84d6KvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84d6K_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6LPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6LfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6LvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6L_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6MPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6MfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6MvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6M_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84d6NPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84d6NfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84d6NvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84d6N_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84ehEPXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehEfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84ehEvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84ehE_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84a2u_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84ehFPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84ehFfXqEeG0DY0j4Su_XQ" stringValue="Float"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehFvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2P_dmEeGXj4o2QzHeXw" stringValue="floatVar"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehGPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehGfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84ehGvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84ehG_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehHPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehHfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehHvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehH_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehIPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehIfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehIvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehI_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehJPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehJfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehJvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehJ_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84ehKPXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehKfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84ehKvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84ehK_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdwPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84ehLPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84ehLfXqEeG0DY0j4Su_XQ" stringValue="Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehLvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2QPdmEeGXj4o2QzHeXw" stringValue="value0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehMPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84ehMfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84ehMvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84ehM_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehNPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehNfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehNvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="USER_SELECTED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehN_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehOPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehOfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehOvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84ehO_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84ehPPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84ehPfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIIPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIIfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fIIvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fII_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fIJPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fIJfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdwfXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fIJvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fIJ_XqEeG0DY0j4Su_XQ" stringValue="Default Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIKPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundQPdmEeGXj4o2QzHeXw" stringValue="defaultValue0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIKvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIK_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fILPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fILfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fILvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIL_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIMPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="USER_SELECTED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIMfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIMvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIM_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fINPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fINfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fINvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIN_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIOPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIOfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fIOvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIO_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fIPPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fIPfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdwvXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fIPvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fIP_XqEeG0DY0j4Su_XQ" stringValue="String"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIQPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundQfdmEeGXj4o2QzHeXw" stringValue="stringVar"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIQvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIQ_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fIRPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fIRfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIRvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIR_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fISPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fISfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fISvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIS_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fITPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fITfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fITvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIT_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIUPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIUfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fIUvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIU_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fIVPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fIVfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdw_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fIVvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fIV_XqEeG0DY0j4Su_XQ" stringValue="Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIWPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundQvdmEeGXj4o2QzHeXw" stringValue="value1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIWvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIW_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fIXPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fIXfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIXvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIX_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIYPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIYfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIYvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIY_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIZPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIZfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fIZvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fIZ_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fIaPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIafXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fIavXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fIa_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fvMPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fvMfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdxPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fvMvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fvM_XqEeG0DY0j4Su_XQ" stringValue="Default Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvNPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundQ_dmEeGXj4o2QzHeXw" stringValue="defaultValue1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvNvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvN_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fvOPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fvOfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvOvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvO_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvPPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvPfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvPvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvP_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvQPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvQfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvQvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvQ_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvRPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvRfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fvRvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvR_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fvSPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fvSfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdxfXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fvSvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fvS_XqEeG0DY0j4Su_XQ" stringValue="Feature"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvTPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundRPdmEeGXj4o2QzHeXw" stringValue="feature0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvTvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvT_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fvUPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fvUfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvUvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvU_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvVPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvVfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvVvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvV_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvWPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvWfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvWvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvW_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvXPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvXfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fvXvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvX_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fvYPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fvYfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdxvXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fvYvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fvY_XqEeG0DY0j4Su_XQ" stringValue="Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvZPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundRfdmEeGXj4o2QzHeXw" stringValue="value2"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvZvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvZ_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fvaPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fvafXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvavXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fva_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvbPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvbfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvbvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvb_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvcPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvcfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvcvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="USER_SELECTED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvc_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvdPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvdfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84fvdvXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvd_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84fvePXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84fvefXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdx_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84fvevXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84fve_XqEeG0DY0j4Su_XQ" stringValue="Default Value"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvfPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundRvdmEeGXj4o2QzHeXw" stringValue="defaultValue2"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvfvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84fvf_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84fvgPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84fvgfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvgvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvg_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvhPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fvhfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvhvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvh_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84fviPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84fvifXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84fvivXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="USER_SELECTED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWQPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWQfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWQvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84gWQ_XqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWRPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84gWRfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84gWRvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdyPXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84gWR_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84gWSPXqEeG0DY0j4Su_XQ" stringValue="Min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWSfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundR_dmEeGXj4o2QzHeXw" stringValue="min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWS_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWTPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84gWTfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84gWTvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWT_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWUPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84gWUfXqEeG0DY0j4Su_XQ" integerValue="0"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWUvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWU_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWVPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWVfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWVvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWV_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWWPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWWfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWWvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWW_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84gWXPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWXfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84gWXvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84gWX_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bdyfXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84gWYPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84gWYfXqEeG0DY0j4Su_XQ" stringValue="Max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWYvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KundSPdmEeGXj4o2QzHeXw" stringValue="max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWZPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWZfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84gWZvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84gWZ_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWaPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWafXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84gWavXqEeG0DY0j4Su_XQ" integerValue="1"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWa_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWbPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWbfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWbvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWb_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWcPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWcfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWcvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWc_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWdPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84gWdfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWdvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84gWd_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84gWePXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd4vXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84gWefXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84gWevXqEeG0DY0j4Su_XQ" stringValue="FeatureGroup"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWe_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuoEUPdmEeGXj4o2QzHeXw" stringValue="featureGroup"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWffXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWfvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84gWf_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84gWgPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWgfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWgvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWg_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWhPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWhfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWhvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWh_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWiPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84gWifXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWivXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWi_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWjPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84gWjfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWjvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84gWj_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84gWkPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd4_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84gWkfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84gWkvXqEeG0DY0j4Su_XQ" stringValue="Id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWk_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuoEUfdmEeGXj4o2QzHeXw" stringValue="id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWlfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84gWlvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84gWl_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84gWmPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84gWmfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84gWmvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9UPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9UfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9UvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9U_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9VPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9VfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="USER_SELECTED" name="Default Value" valueType="STRING">
+                <typedValue xmi:id="_84g9VvXqEeG0DY0j4Su_XQ" stringValue="group"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9V_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9WPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9WfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9WvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84g9W_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9XPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84g9XfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84g9XvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd5PXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84g9X_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84g9YPXqEeG0DY0j4Su_XQ" stringValue="Min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9YfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorYPdmEeGXj4o2QzHeXw" stringValue="min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9Y_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9ZPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84g9ZfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84g9ZvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9Z_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9aPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84g9afXqEeG0DY0j4Su_XQ" integerValue="1"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9avXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9a_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9bPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9bfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9bvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9b_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9cPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9cfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9cvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9c_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84g9dPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9dfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84g9dvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84g9d_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd5fXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84g9ePXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84g9efXqEeG0DY0j4Su_XQ" stringValue="Max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9evXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorYfdmEeGXj4o2QzHeXw" stringValue="max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9fPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9ffXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84g9fvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84g9f_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9gPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9gfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84g9gvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9g_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9hPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9hfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9hvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9h_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9iPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9ifXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9ivXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9i_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9jPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84g9jfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9jvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84g9j_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84g9kPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd5vXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84g9kfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84g9kvXqEeG0DY0j4Su_XQ" stringValue="Reference"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9k_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorYvdmEeGXj4o2QzHeXw" stringValue="reference"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9lfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9lvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84g9l_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84g9mPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9mfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9mvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9m_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9nPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9nfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9nvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9n_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9oPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84g9ofXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84g9ovXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84g9o_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9pPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84g9pfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9pvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84g9p_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84g9qPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd6PXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84g9qfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84g9qvXqEeG0DY0j4Su_XQ" stringValue="Id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84g9q_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorZPdmEeGXj4o2QzHeXw" stringValue="id"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkYPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkYfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84hkYvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84hkY_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="MACHINE_ELIMINATED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkZPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" state="MACHINE_ELIMINATED" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkZfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="MACHINE_ELIMINATED" name="Default Value" valueType="INTEGER"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkZvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkZ_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkaPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkafXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="USER_SELECTED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkavXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hka_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="USER_SELECTED" name="Default Value" valueType="STRING">
+                <typedValue xmi:id="_84hkbPXqEeG0DY0j4Su_XQ" stringValue="reference"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkbfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkbvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkb_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkcPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84hkcfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkcvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84hkc_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84hkdPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd6fXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84hkdfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84hkdvXqEeG0DY0j4Su_XQ" stringValue="Min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkd_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorZfdmEeGXj4o2QzHeXw" stringValue="min"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkefXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkevXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84hke_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84hkfPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkffXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkfvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84hkf_XqEeG0DY0j4Su_XQ" integerValue="0"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkgPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkgfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkgvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkg_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkhPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkhfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkhvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkh_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkiPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkifXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84hkivXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hki_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84hkjPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+      <configurations xmi:id="_84hkjfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7PXqEeG0DY0j4Su_XQ" id="feature" name="Feature" valueType="NONE" describedNode="_84bd6vXqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84hkjvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7fXqEeG0DY0j4Su_XQ" id="name" name="Name" valueType="STRING">
+          <typedValue xmi:id="_84hkj_XqEeG0DY0j4Su_XQ" stringValue="Max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkkPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84bd7vXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorZvdmEeGXj4o2QzHeXw" stringValue="max"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkkvXqEeG0DY0j4Su_XQ" max="1" origin="_84bd7_XqEeG0DY0j4Su_XQ" id="description" name="Description" valueType="STRING"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkk_XqEeG0DY0j4Su_XQ" max="1" origin="_84bd8PXqEeG0DY0j4Su_XQ" id="attribute" state="USER_SELECTED" name="Attribute" valueType="NONE">
+          <children xsi:type="fmp:FeatureGroup" xmi:id="_84hklPXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8fXqEeG0DY0j4Su_XQ" id="typeGroup">
+            <children xsi:type="fmp:Feature" xmi:id="_84hklfXqEeG0DY0j4Su_XQ" max="1" origin="_84bd8vXqEeG0DY0j4Su_XQ" id="integerVar" state="USER_SELECTED" name="Integer" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hklvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0PXqEeG0DY0j4Su_XQ" id="value" name="Value" valueType="INTEGER"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkl_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE0fXqEeG0DY0j4Su_XQ" id="defaultValue" state="USER_SELECTED" name="Default Value" valueType="INTEGER">
+                <typedValue xmi:id="_84hkmPXqEeG0DY0j4Su_XQ" integerValue="1"/>
+              </children>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkmfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0vXqEeG0DY0j4Su_XQ" id="floatVar" state="MACHINE_ELIMINATED" name="Float" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkmvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE0_XqEeG0DY0j4Su_XQ" id="value0" state="MACHINE_ELIMINATED" name="Value" valueType="FLOAT"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkm_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE1PXqEeG0DY0j4Su_XQ" id="defaultValue0" state="MACHINE_ELIMINATED" name="Default Value" valueType="FLOAT"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hknPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1fXqEeG0DY0j4Su_XQ" id="stringVar" state="MACHINE_ELIMINATED" name="String" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hknfXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1vXqEeG0DY0j4Su_XQ" id="value1" state="MACHINE_ELIMINATED" name="Value" valueType="STRING"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hknvXqEeG0DY0j4Su_XQ" max="1" origin="_84cE1_XqEeG0DY0j4Su_XQ" id="defaultValue1" state="MACHINE_ELIMINATED" name="Default Value" valueType="STRING"/>
+            </children>
+            <children xsi:type="fmp:Feature" xmi:id="_84hkn_XqEeG0DY0j4Su_XQ" max="1" origin="_84cE2PXqEeG0DY0j4Su_XQ" id="feature0" state="MACHINE_ELIMINATED" name="Feature" valueType="NONE">
+              <children xsi:type="fmp:Feature" xmi:id="_84hkoPXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2fXqEeG0DY0j4Su_XQ" id="value2" state="MACHINE_ELIMINATED" name="Value"/>
+              <children xsi:type="fmp:Feature" xmi:id="_84hkofXqEeG0DY0j4Su_XQ" max="1" origin="_84cE2vXqEeG0DY0j4Su_XQ" id="defaultValue2" state="MACHINE_ELIMINATED" name="Default Value"/>
+            </children>
+          </children>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkovXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE2_XqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84hko_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkpPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84cE3fXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84hkpfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+    </children>
+    <children xsi:type="fmp:Feature" xmi:id="_84hkpvXqEeG0DY0j4Su_XQ" max="1" min="1" id="featureGroup" name="FeatureGroup" valueType="NONE">
+      <children xsi:type="fmp:Feature" xmi:id="_84hkp_XqEeG0DY0j4Su_XQ" max="1" min="1" id="id" name="Id" valueType="STRING"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84hkqPXqEeG0DY0j4Su_XQ" max="1" min="1" id="min" name="Min" valueType="INTEGER">
+        <typedValue xmi:id="_84hkqfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <children xsi:type="fmp:Feature" xmi:id="_84hkqvXqEeG0DY0j4Su_XQ" max="1" min="1" id="max" name="Max" valueType="INTEGER">
+        <typedValue xmi:id="_84hkq_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <configurations xmi:id="_84hkrPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hkpvXqEeG0DY0j4Su_XQ" id="featureGroup" name="FeatureGroup" valueType="NONE" describedNode="_84a2t_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Feature" xmi:id="_84hkrfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hkp_XqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_Kum2O_dmEeGXj4o2QzHeXw" stringValue="typeGroup"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hkr_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hkqPXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84hksPXqEeG0DY0j4Su_XQ" integerValue="0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84hksfXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hkqvXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84hksvXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+    </children>
+    <children xsi:type="fmp:Feature" xmi:id="_84hks_XqEeG0DY0j4Su_XQ" max="1" min="1" id="reference" name="Reference" valueType="NONE">
+      <children xsi:type="fmp:Reference" xmi:id="_84hktPXqEeG0DY0j4Su_XQ" max="1" min="1" id="reference0"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84hktfXqEeG0DY0j4Su_XQ" max="1" min="1" id="id" name="Id" valueType="STRING"/>
+      <children xsi:type="fmp:Feature" xmi:id="_84hktvXqEeG0DY0j4Su_XQ" max="1" min="1" id="min" name="Min" valueType="INTEGER">
+        <typedValue xmi:id="_84hkt_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <children xsi:type="fmp:Feature" xmi:id="_84hkuPXqEeG0DY0j4Su_XQ" max="1" min="1" id="max" name="Max" valueType="INTEGER">
+        <typedValue xmi:id="_84hkufXqEeG0DY0j4Su_XQ" integerValue="1"/>
+      </children>
+      <configurations xmi:id="_84hkuvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hks_XqEeG0DY0j4Su_XQ" id="reference" name="Reference" valueType="NONE" describedNode="_84bd5_XqEeG0DY0j4Su_XQ">
+        <children xsi:type="fmp:Reference" xmi:id="_84hku_XqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hktPXqEeG0DY0j4Su_XQ" id="reference0"/>
+        <children xsi:type="fmp:Feature" xmi:id="_84iLcPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hktfXqEeG0DY0j4Su_XQ" id="id" name="Id" valueType="STRING">
+          <typedValue xmi:id="_KuorY_dmEeGXj4o2QzHeXw" stringValue="reference0"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84iLcvXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hktvXqEeG0DY0j4Su_XQ" id="min" name="Min" valueType="INTEGER">
+          <typedValue xmi:id="_84iLc_XqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+        <children xsi:type="fmp:Feature" xmi:id="_84iLdPXqEeG0DY0j4Su_XQ" max="1" min="1" origin="_84hkuPXqEeG0DY0j4Su_XQ" id="max" name="Max" valueType="INTEGER">
+          <typedValue xmi:id="_84iLdfXqEeG0DY0j4Su_XQ" integerValue="1"/>
+        </children>
+      </configurations>
+    </children>
+  </metaMetaModel>
+</fmp:Project>

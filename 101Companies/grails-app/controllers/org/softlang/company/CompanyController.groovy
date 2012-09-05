@@ -3,9 +3,9 @@ package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
 
-//#if Logging
+/*#if ($logging) */
 import org.softlang.Logging
-//#endif Logging
+/* #end */
 
 class CompanyController {
 
@@ -35,9 +35,9 @@ class CompanyController {
         flash.message = message(code: 'default.created.message', args: [message(code: 'company.label', default: 'Company'), companyInstance.id])
         redirect(action: "show", id: companyInstance.id)
 		
-		//#if AdvancedLogging
+		/* #if ($advancedLogging) */
 		Logging.getInstance().writeCreation(companyInstance)
-		//#endif AdvancedLogging
+		/* #end */
     }
 
     def show(Long id) {
@@ -48,9 +48,9 @@ class CompanyController {
             return
         }
 		
-		//#if Total
+		/*#if ($total)*/
 		companyInstance.calculateTotal()
-		//#endif Total
+		/*#end*/
         [companyInstance: companyInstance]
     }
 
@@ -68,9 +68,9 @@ class CompanyController {
     def update(Long id, Long version) {
         def companyInstance = Company.get(id)
 		
-		//#if AdvancedLogging
+		/* #if ($advancedLogging) */
 		String old = companyInstance.properties.toString()
-		//#endif AdvancedLogging
+		/* #end */
 		
         if (!companyInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'company.label', default: 'Company'), id])
@@ -99,11 +99,11 @@ class CompanyController {
         flash.message = message(code: 'default.updated.message', args: [message(code: 'company.label', default: 'Company'), companyInstance.id])
         redirect(action: "show", id: companyInstance.id)
 		
-		//#if AdvancedLogging
+		/* #if ($advancedLogging) */
 		String updated = companyInstance.properties.toString()
 		
 		Logging.getInstance().writeUpdate('Company', old, updated)
-		//#endif AdvancedLogging
+		/* #end */
     }
 
     def delete(Long id) {
@@ -119,9 +119,9 @@ class CompanyController {
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
             redirect(action: "list")
 			
-			//#if AdvancedLogging
+			/* #if ($advancedLogging) */
 			Logging.getInstance().writeDeletion(companyInstance)
-			//#endif AdvancedLogging
+			/* #end */
         }
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
@@ -129,7 +129,7 @@ class CompanyController {
         }
     }
 	
-	//#if Cut
+	/* #if ($cut) */
 	// verify if the cut feature is really updating the database
 	def cut(Long id) {
 		def companyInstance = Company.get(id)
@@ -144,15 +144,15 @@ class CompanyController {
 			flash.message = message(code: 'default.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
 			redirect(action: "list")
 			
-			//#if Logging
+			/*#if ($logging) */
 			Logging.getInstance().write(null, 0)
-			//#endif
+			/* #end */
 		}
 		catch (DataIntegrityViolationException e) {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'company.label', default: 'Company'), id])
 			redirect(action: "show", id: id)
 		}
 	}
-	//#endif Cut
+	/* #end */
 }
 //#endif Company

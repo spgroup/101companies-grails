@@ -1,0 +1,16 @@
+<feature name="Companies" type="NONE" id="Companies">
+
+<feature name="treeStructure" type="NONE" id="treeStructure"></feature>	   
+
+<feature name="authentication" type="NONE" id="authentication"></feature>	
+
+<feature name="cut" type="NONE" id="cut"></feature>
+
+<feature name="logging" type="NONE" id="logging"></feature>
+
+<feature name="advancedLogging" type="NONE" id="advancedLogging"></feature>
+	
+<feature name="total" type="NONE" id="total"></feature>		
+
+
+</feature>

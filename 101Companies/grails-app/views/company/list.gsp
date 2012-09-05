@@ -38,11 +38,11 @@
 				</g:each>
 				</tbody>
 			</table>
-			<!-- //#if Total -->
+			<!-- #if ($total) -->
 			<div class="pagination">
 				<g:paginate total="${companyInstanceTotal}" />
 			</div>
-			<!-- //#endif Total -->
+			<!-- #end -->
 		</div>
 	</body>
 </html>

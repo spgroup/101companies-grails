@@ -1,9 +1,9 @@
 //#if Company
 package org.softlang.company
 
-//#if Logging
+/*#if ($logging) */
 import org.softlang.Logging
-//#endif Logging
+/* #end */
 
 import org.springframework.dao.DataIntegrityViolationException
 
@@ -35,9 +35,9 @@ class EmployeeController {
         flash.message = message(code: 'default.created.message', args: [message(code: 'employee.label', default: 'Employee'), employeeInstance.id])
         redirect(action: "show", id: employeeInstance.id)
 		
-		//#if AdvancedLogging
+		/* #if ($advancedLogging) */
 		Logging.getInstance().writeCreation(employeeInstance)
-		//#endif AdvancedLogging
+		/* #end */
 		
     }
 
@@ -66,9 +66,9 @@ class EmployeeController {
     def update(Long id, Long version) {
         def employeeInstance = Employee.get(id)
 		
-		//#if AdvancedLogging
+		/* #if ($advancedLogging) */
 		String old = employeeInstance.properties.toString()
-		//#endif AdvancedLogging
+		/* #end */
 		
         if (!employeeInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'employee.label', default: 'Employee'), id])
@@ -86,9 +86,9 @@ class EmployeeController {
             }
         }
 		
-		//#if Logging
+		/*#if ($logging) */
 		double oldSalary = employeeInstance.salary
-		//#endif Logging
+		/* #end */
 		
 
         employeeInstance.properties = params
@@ -101,17 +101,19 @@ class EmployeeController {
         flash.message = message(code: 'default.updated.message', args: [message(code: 'employee.label', default: 'Employee'), employeeInstance.id])
         redirect(action: "show", id: employeeInstance.id)
 		
-		//#if Logging
+		/*#if ($logging) */
 		if(oldSalary != employeeInstance.salary){
 		Logging.getInstance().write(employeeInstance, oldSalary)
 		}
 		
-		//#if AdvancedLogging
+		/* #end */
+		
+		/* #if ($advancedLogging) */
 		String updated = employeeInstance.properties.toString()
 		Logging.getInstance().writeUpdate('Employee', old, updated)
-		//#endif AdvancedLogging
+		/* #end */
 		
-		//#endif Logging 
+		
     }
 
     def delete(Long id) {
@@ -126,9 +128,9 @@ class EmployeeController {
             employeeInstance.delete(flush: true)
             flash.message = message(code: 'default.deleted.message', args: [message(code: 'employee.label', default: 'Employee'), id])
             redirect(action: "list")
-			//#if AdvancedLogging
+			/* #if ($advancedLogging) */
 			Logging.getInstance().writeDeletion(employeeInstance)
-			//#endif AdvancedLogging
+			/* #end */
         }
         catch (DataIntegrityViolationException e) {
             flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'employee.label', default: 'Employee'), id])

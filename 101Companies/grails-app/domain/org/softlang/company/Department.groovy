@@ -7,7 +7,7 @@ class Department {
 	Employee manager
 	static hasMany = [employees: Employee, subDepartments: Department]
 	
-	//#if Total
+	/*#if ($total)*/
 	double calculateTotal(){
 		
 		def total = 0.0
@@ -26,15 +26,15 @@ class Department {
 		
 		return total
 		}
-	//#endif Total
+	/*#end*/
 	
-	//#if Cut
+	/*#if ($cut)*/
 	void cut() {
 		this.manager.cut();
 		for(department in this.subDepartments) department.cut();
 		for(employee in this.employees) employee.cut();
 	}
-	//#endif Cut
+	/*#end*/
 	
 	//#if Valitation
     static constraints = {

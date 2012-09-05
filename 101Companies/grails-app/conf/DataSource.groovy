@@ -20,12 +20,12 @@ environments {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         }
-		//#if Authentication
+		/* #if ($authentication) */
 		dataSource_authentication {
 			dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
 			url = "jdbc:h2:mem:devAuthDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
 		}
-		//#endif Authentication
+		/* #end */
     }
     test {
         dataSource {
@@ -50,7 +50,7 @@ environments {
             }
         }
 		
-		//#if Authentication
+		/* #if ($authentication) */
 		dataSource_authentication {
 			dbCreate = "update"
 			url = "jdbc:h2:proAuthDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
@@ -66,6 +66,6 @@ environments {
 			   validationQuery="SELECT 1"
 			}
 		}
-		//#endif Authentication
+		/* #end */
     }
 }

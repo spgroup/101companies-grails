@@ -6,7 +6,7 @@ class Company {
 	String name
 	static hasMany = [departments: Department]
 
-	//#if Total
+	/*#if ($total)*/
 	double total = 0.0
 
 	void calculateTotal(){
@@ -14,13 +14,15 @@ class Company {
 		for(department in this.departments) this.total += department.calculateTotal()
 
 	}
-	//#endif Total
+	/*#end*/
 
-	//#if Cut
+
+	/*#if ($cut)*/
 	void cut() {
 		for(department in this.departments) department.cut();
 	}
-	//#endif Cut
+	/*#end*/
+	
 
 	//#if Valitation
 	static constraints = {

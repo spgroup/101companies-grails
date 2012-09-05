@@ -13,7 +13,7 @@ class Employee {
 	String city
 	String country
 	
-	//#if Valitation
+	//#if Validation
     static constraints = {
 		name blank: false, nullable: false
 		salary min: 1.0d, nullable: false
@@ -30,11 +30,11 @@ class Employee {
 		return name
 	}
 	
-	//#if Cut
+	/*#if ($cut)*/
 	void cut() {
 		salary = salary / 2
 	}
-	//# endif Cut
+	/*#end*/
 	
 }
 //#endif Company

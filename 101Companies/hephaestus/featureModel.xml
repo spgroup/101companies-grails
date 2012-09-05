@@ -1,0 +1,14 @@
+<feature min="1" max="1" name="Companies" type="NONE" id="101Companies">
+  <feature min="1" max="1" name="treeStructure" type="NONE" id="treeStructure">
+  </feature>
+  <feature min="0" max="1" name="authentication" type="NONE" id="authentication">
+  </feature>
+  <feature min="0" max="1" name="cut" type="NONE" id="cut">
+  </feature>
+  <feature min="0" max="1" name="logging" type="NONE" id="logging">
+    <feature min="0" max="1" name="advancedLogging" type="NONE" id="advancedLogging">
+    </feature>
+  </feature>
+  <feature min="0" max="1" name="total" type="NONE" id="total">
+  </feature>
+</feature>

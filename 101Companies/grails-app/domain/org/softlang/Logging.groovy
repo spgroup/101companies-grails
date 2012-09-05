@@ -3,11 +3,12 @@ package org.softlang
 
 import org.softlang.company.Employee
 
-//#if AdvancedLogging
+/* #if ($advancedLogging) */
 
 import org.softlang.company.Company
 import org.softlang.company.Department
-//#endif AdvancedLogging
+
+/* #end */
 
 import antlr.TreeElement;
 
@@ -48,7 +49,7 @@ void write(Employee e, double oldSalary){
 	f << spacer
 }
 
-//#if AdvancedLogging
+/* #if ($advancedLogging) */
 
 //registry when a company, department or employee is created
 void writeCreation(Object treeElement){
@@ -139,7 +140,7 @@ private void auxiliarDeletion(String treeElementType, String treeElementName){
 	' was deleted from the system database.\r\n' + spacer
 	
 	}
-//#endif AdvancedLogging
+/* #end */
 }
 //#endif Logging
 

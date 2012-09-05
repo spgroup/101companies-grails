@@ -8,10 +8,11 @@ class BootStrap {
 
     def init = { servletContext ->
 		
-		//authentication
+		/* #if ($authentication) */
 		def user = new User(username: "user123", passwordHash: new Sha256Hash("password").toHex())
 		user.addToPermissions("*:*")
 		user.save()
+		/* #end */
 		
 		//company
 		def employeeRodrigo = new Employee(name: "Rodrigo Andrade", salary: 1000d, street: "Rua Faustino Porto", number: 289l, zipcode: "51020-270", city: "Recife", country: "Brasil").save(failOnError: true)
