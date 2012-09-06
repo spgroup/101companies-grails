@@ -1,4 +1,4 @@
-//#if Company
+//if Company
 package org.softlang.company
 
 import org.springframework.dao.DataIntegrityViolationException
@@ -123,4 +123,4 @@ class DepartmentController {
         }
     }
 }
-//#endif Company
+//endif Company

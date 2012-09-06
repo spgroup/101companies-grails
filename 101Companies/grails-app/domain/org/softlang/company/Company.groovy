@@ -1,4 +1,4 @@
-//#if Company
+//if Company
 package org.softlang.company
 
 class Company {
@@ -24,15 +24,15 @@ class Company {
 	/*#end*/
 	
 
-	//#if Valitation
+	//if Validation
 	static constraints = {
 		// these constraints are verified in the Views and in the Controllers
 		name unique: true, blank: false
 	}
-	//# endif Validation
+	// endif Validation
 	String toString() {
 		return name
 	}
 
 }
-//#endif Company
+//endif Company

@@ -1,4 +1,4 @@
-<feature min="1" max="1" name="Companies" type="NONE" id="101Companies">
+<feature min="1" max="1" name="Companies" type="NONE" id="Companies">
   <feature min="1" max="1" name="treeStructure" type="NONE" id="treeStructure">
   </feature>
   <feature min="0" max="1" name="authentication" type="NONE" id="authentication">

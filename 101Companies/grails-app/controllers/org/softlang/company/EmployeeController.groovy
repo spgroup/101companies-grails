@@ -1,4 +1,4 @@
-//#if Company
+//if Company
 package org.softlang.company
 
 /*#if ($logging) */
@@ -101,7 +101,7 @@ class EmployeeController {
         flash.message = message(code: 'default.updated.message', args: [message(code: 'employee.label', default: 'Employee'), employeeInstance.id])
         redirect(action: "show", id: employeeInstance.id)
 		
-		/*#if ($logging) */
+		/*#if ($logging && !$advancedLogging) */
 		if(oldSalary != employeeInstance.salary){
 		Logging.getInstance().write(employeeInstance, oldSalary)
 		}
@@ -138,4 +138,4 @@ class EmployeeController {
         }
     }
 }
-//#endif Company
+//endif Company

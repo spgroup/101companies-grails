@@ -1,4 +1,4 @@
-//#if Logging
+//if Logging
 package org.softlang
 
 import org.softlang.company.Employee
@@ -142,5 +142,5 @@ private void auxiliarDeletion(String treeElementType, String treeElementName){
 	}
 /* #end */
 }
-//#endif Logging
+//endif Logging
 

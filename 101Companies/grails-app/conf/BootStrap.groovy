@@ -1,5 +1,7 @@
+/* #if ($authentication)*/
 import org.apache.shiro.crypto.hash.Sha256Hash
 import org.softlang.User
+/* #end */
 import org.softlang.company.Company
 import org.softlang.company.Department
 import org.softlang.company.Employee

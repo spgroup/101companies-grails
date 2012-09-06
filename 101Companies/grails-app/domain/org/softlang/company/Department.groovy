@@ -1,4 +1,4 @@
-//#if Company
+//if Company
 package org.softlang.company
 
 class Department {
@@ -36,15 +36,15 @@ class Department {
 	}
 	/*#end*/
 	
-	//#if Valitation
+	//if Validation
     static constraints = {
 		manager nullable: false
 		name unique: true, blank: false
     }
-	//#endif Validation
+	//endif Validation
 	
 	String toString() {
 		return name
 	}
 }
-//#endif Company
+//endif Company

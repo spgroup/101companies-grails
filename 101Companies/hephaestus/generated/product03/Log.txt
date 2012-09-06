@@ -1,0 +1,4 @@
+============================
+Thu Sep 06 15:13:02 GMT-03:00 2012
+The salary of the employee Cico doido novo changed from 500.0 to 1000.0.
+============================

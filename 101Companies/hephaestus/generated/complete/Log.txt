@@ -1,0 +1,22 @@
+============================
+Thu Sep 06 15:27:55 GMT-03:00 2012
+The salaries of all employees have been cut to half.
+============================
+
+============================
+Thu Sep 06 15:28:24 GMT-03:00 2012
+A Employee was updated in the System DataBase.
+ Old properties:
+[city:Recife, salary:250.0, country:Brasil, zipcode:51020-800, street:Rua 18 de Agosto, number:2539, name:Cico doido]
+New properties:
+[salary:1000.0, city:Recife, country:Brasil, zipcode:51020-800, street:Rua 18 de Agosto, number:2539, name:Cico doido]
+============================
+
+============================
+Thu Sep 06 15:28:41 GMT-03:00 2012
+A Employee was updated in the System DataBase.
+ Old properties:
+[salary:1000.0, city:Recife, country:Brasil, zipcode:51020-800, street:Rua 18 de Agosto, number:2539, name:Cico doido]
+New properties:
+[salary:1000.0, city:Recife, country:Brasil, zipcode:51020-800, street:Rua 18 de Agosto, number:2539, name:Cico doido novo]
+============================
